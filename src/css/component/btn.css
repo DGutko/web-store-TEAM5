@@ -1,0 +1,55 @@
+/* == DEFAULT COMPONENTS START == */
+/* == BTN START == */
+.btn{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+	line-height: 1;
+    padding: 17px 24px;
+    color: #f4f6f5;
+}
+.btn.btn-green{
+    background-color: #8bc34a;
+}
+.btn.btn-green:hover{
+	background-color: #6da231;
+}
+.btn.btn-dark-blue{
+    background-color: #546e7a;
+}
+.btn.btn-dark-blue:hover{
+	background-color: #455a64
+}
+.btn.btn-pink{
+    background-color: #e74c3c;
+}
+.btn.btn-pink:hover{
+	background-color: #d13c2d;
+}
+.btn.btn-blue{
+    background-color: #42a5f5;
+}
+.btn.btn-blue:hover{
+	background-color: #3f8ccb;
+}
+.btn.btn-white{
+    background-color: #fff;
+    color: #000000;
+}
+.btn.btn-header{
+    border: 1px solid #e74c3c;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 9px 17px;
+}
+.btn.btn-full{
+    width: 100%;
+    text-align: center;
+	padding: 19px;
+}
+.btn.btn-bold{
+    font-weight: 700;
+    }
+/* == BTN END == */
+/* == DEFAULT COMPONENTS END == */
