@@ -3,8 +3,8 @@
 }
 body{
     margin: 0;
-    color: #777;
-    font: 400 15px/1 'Roboto', sans-serif;
+    color: #707070;
+    font: 400 15px/1.6 'Roboto', sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -27,4 +27,7 @@ img{
 }
 textarea{
     resize: vertical;
+}
+.text-center{
+    text-align: center;
 }
