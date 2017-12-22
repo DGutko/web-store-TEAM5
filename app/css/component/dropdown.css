@@ -1,8 +1,4 @@
 /* ========header========== */
-.header-top{
-    padding: 20px 0;
-}
-
 .header-top .logo .logo-text{
     margin-top: 7px;
     display: block;
@@ -21,6 +17,10 @@
 
 .header-top .need-help{
     margin-right: 30px; 
+}
+
+.header-top .header-dropdown-items > li{
+    padding: 20px 0;
 }
 
 .header-top .header-dropdown-items li > a{
@@ -73,11 +73,14 @@
 
 .header-top .profile{
     margin-left: 20px;
+    padding: 20px 0;
 }
 
 .header-top .profile .profile-img{
     background-color: #57c1c2;
-    border-radius: 30px;
+    border-radius: 34px;
+    height: 34px;
+    width: 34px;
 }
 
 .header-top .profile .profile-info{
@@ -103,6 +106,10 @@
 .header-top .profile .profile-icon{
     margin-left: 13px;
     font-size: 16px;
+}
+
+.header-top .profile .dropdown-menu li:hover{
+    color: #8bc34a;
 }
 
 .header-bottom{
@@ -144,10 +151,13 @@
     display: block;
 }
 
+.header-top .dropdown-menu{
+    top: 74px;
+}
+
 .dropdown-notifications .dropdown-menu .notifications-item{
     padding: 20px;
     border-bottom: 1px solid #d3d3d3;
-    min-width: 270px;
 }
 
 .dropdown-notifications .dropdown-menu .notifications-item:last-child{
@@ -178,7 +188,6 @@
 .dropdown-messages .dropdown-menu .messages-item{
     padding: 20px;
     border-bottom: 1px solid #d3d3d3;
-    min-width: 270px;   /* Как без этого??? */
 }
 
 .dropdown-messages .dropdown-menu .messages-item:last-child{
@@ -215,7 +224,6 @@
 .dropdown-cart .dropdown-menu .cart-item{
     padding: 20px 25px 25px 25px;
     border-bottom: 1px solid #d3d3d3;
-    min-width: 270px;     /* Как без этого??? */
 }
 
 .dropdown-cart .cart-item .cart-item-text{
@@ -241,6 +249,7 @@
     font-size: 15px;
     font-weight: 700;
 }
+
 .profile .dropdown-menu li{
     margin-left: 20px;
     margin-top: 25px;
