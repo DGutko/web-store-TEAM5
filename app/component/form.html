@@ -24,22 +24,136 @@
 <body>
     <div class="container welcome03">
         <div class="row text-center">
-            <form class="search-form">
+            <div class="search-form">
                 <input type="search" name="key_words" placeholder="Search Your Keywords . . . " >
                 <i class="fa fa-search" aria-hidden="true"></i>    
-            </form>
+            </div>
         </div>
     </div>
     <!-- /search-form -->
 
-    <div class="container newsletter03">
-        <div class="row col-md-3">
-            <form class="news-form">
+    <div class="container col-md-3 newsletter03">
+        <div class="row">
+            <div class="news-form">
                 <input type="text" name="user_email" placeholder="E-mail Address">
                 <button type="submit" class="btn btn-green btn-small"><i class="fa fa-location-arrow" aria-hidden="true"></i></button>
-            </form>
+            </div>
         </div>
     </div>
-    
+    <!-- news-form -->
+
+    <div class="container col-md-9 Personal-Information16">
+            <form class="personal-info form">
+                <div class="form-row d-flex justify-content-between">
+                    <span>First Name</span>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <span>Last Name</span>
+                    <input type="text" name="surname">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <span>Company Name</span>
+                    <input type="text" name="Company_name">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <span>Country</span>
+                    <input type="text" name="Country" placeholder="Select Your Country">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <span>Address Line 1</span>
+                    <input type="text" name="Address_Line_1">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <span>Address Line 1</span>
+                    <input type="text" name="Address_Line_1">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <span>City</span>
+                    <input type="text" name="City">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <span>State / Province / Region</span>
+                    <input type="text" name="State">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <span>Zip / Postal Code</span>
+                    <input type="text" name="Zip">
+                </div>
+                <div class="form-row d-flex justify-content-between">
+                    <div></div>
+                    <div>
+                        <button class="btn btn-green" type="submit" name="personal_info">Update</button>
+                    </div>
+                </div>
+            </form>
+            <!-- /personal info -->
+        </div>    
+    </div>
+    <!-- /Personal-Information16 -->
+
+    <div class="container col-md-12 upload_item21">
+        <div class="row">
+        <form class="form upload-item">
+            <div class="form-row d-flex justify-content-between">
+                <span>Select Categories <sup>*</sup></span>
+                <input type="text" name="" placeholder="Select">
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>Product Name <sup>*</sup></span>
+                <input type="text" name="" placeholder="Enter your product name here ...">
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>Product Description <sup>*</sup></span>
+                <textarea type="text" name="" placeholder="<h1> Type your text  here </h1/>"></textarea>
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>Upload Main File <sup>*</sup></span>
+                <div class="choose d-flex">
+                    <input type="file" name="main_file" id="main_file">
+                    <label for="main_file">Choose File</label>
+                    <span>No File Choosen</span>
+                </div>
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>Upload Screenshots <sup>*</sup></span>
+                <div class="choose d-flex">
+                    <input type="file" name="upload_screenshpts" id="upload_screenshpts">
+                    <label for="upload_screenshpts">Choose File</label>
+                    <span>No File Choosen</span>
+                </div>
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>File Included <sup>*</sup></span>
+                <input type="text" name="" placeholder="Select File Type ">
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>File Dimensions <sup>*</sup></span>
+                <input type="text" name="" placeholder="Enter the item  dimentionss here ...">
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>Item Tags <sup>*</sup></span>
+                <input type="text" name="" placeholder="Enter Tag Here">
+            </div>
+            <div class="title">
+                <span>Set Your Price (US$)</span>
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>Regular License <sup>*</sup></span>
+                <input type="text" name="" placeholder="$00.00">
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <span>Extended License <sup>*</sup></span>
+                <input type="text" name="" placeholder="$00.00">
+            </div>
+            <div class="form-row d-flex justify-content-between">
+                <div></div>
+                <div>
+                    <button class="btn btn-green">Submit</button>
+                </div>
+            </div>
+         </form>
+        </div>
+    </div>
 </body>
 </html>

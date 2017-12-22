@@ -3,6 +3,20 @@
 button{
     border: none;
 }
+textarea{
+    font-family: inherit;
+}
+input{
+    border:none;
+}
+input:focus,
+button:focus,
+textarea:focus{
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
 /* == RESET END == */
 
 /* == DEFAULT COMPONENTS START == */
@@ -17,6 +31,50 @@ button{
 }
 
 /* == FORM START == */
+
+.form{
+    border: 1px solid #d7d7d7;
+}
+.form .form-row{
+    margin-top: 22px;
+}
+.form .form-row span,
+.form .form-row .choose label{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    align-self: center;
+}
+.form .form-row span sup{
+    color: #8bc34a;
+    font-size: 24px;
+}
+.form .form-row input,
+.form .form-row textarea,
+.form .form-row .choose{
+    background-color: #f9f9f9;
+    border: 1px solid #dedede;
+    height: 40px;
+}
+.form .form-row .choose{
+    height: 42px;
+}
+.form .form-row .choose label{
+    font-size: 12px;
+    padding: 7px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.form .form-row .choose span{
+    font-size: 12px;
+    margin-left: 15px;
+}
+.form .form-row .btn{
+    font-size: 15px;
+}
+
 /* = search-form start = */
 .search-form{
     position: relative;
@@ -33,6 +91,9 @@ button{
     border: 1px solid #fff;
     border-radius: 4px;
     box-shadow: 0 1px 10px rgba(124, 178, 64, .75)
+}
+.search-form [type="search"]:focus{
+    border: 1px solid #559705;
 }
 .search-form .fa{
     position: absolute;
@@ -51,9 +112,13 @@ button{
     color: #697378;
     padding: 11px 15px;
     background-color: #2f3c43;
-    border: none;
     font-weight: 400;
     width: 100%;
+    box-shadow: -2px -2px 0 rgba(0, 0, 0, .9)
+}
+.news-form input:focus{
+    background-color: #364e5b; 
+    color: #fff;
 }
 .news-form .btn{
     position: absolute;
@@ -67,6 +132,7 @@ button{
 /* == FORM END == */
 
 /*== CUSTOM STYLE START == */
+
 .container.welcome03{
     padding: 10px 15px;
     background-color: #acaaac;
@@ -75,4 +141,73 @@ button{
 .newsletter03{
     margin-top: 10px;
 }
+
+/* == PERSONAL-INFO START == */
+.personal-info .form-row{
+    padding: 0 38px;
+}
+.personal-info .form-row:first-child{
+    margin-top: 33px;
+}
+.personal-info .form-row:last-child{
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.personal-info .form-row input,
+.personal-info .form-row div:last-child{
+    width: 536px;
+}
+.personal-info .form-row input{
+    padding: 13px 16px;
+}
+.personal-info .form-row .btn{
+    padding: 16px 24px;
+}
+/* == PERSONAL-INFO END == */
+
+/* == UPLOAD-ITEM START == */
+.upload-item .form-row{
+    padding: 0 45px;
+}
+.upload-item .form-row:first-child{
+    margin-top: 43px;
+}
+.upload-item .form-row:nth-child(10){
+    padding-top: 43px;
+    border-top: 1px solid #d7d7d7;
+}
+.upload-item .form-row > *:nth-child(2){
+    width: 900px;
+}
+.upload-item .form-row:nth-child(3) span{
+    align-self: start;
+}
+.upload-item .form-row input,
+.upload-item .form-row textarea{
+    padding: 12px 18px;
+}
+.upload-item .form-row .choose input{
+    display: none;
+}
+.upload-item .form-row .choose{
+
+} 
+.upload-item .form-row textarea{
+    height: 148px;
+}
+.upload-item .form-row:last-child{
+    margin-top: 42px;
+    margin-bottom: 67px;
+}
+.upload-item .form-row .btn{
+    padding: 16px 37px;
+}
+.upload-item .title{
+    padding: 0 45px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+/* == UPLOAD-ITEM END == */
+
 /*== CUSTOM STYLE END == */
