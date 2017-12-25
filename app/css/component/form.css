@@ -1,19 +1,14 @@
 /* == RESET START == */
 
-button{
+button, input, textarea{
     border: none;
-}
-textarea{
-    font-family: inherit;
-}
-input{
-    border:none;
+    font: inherit;
 }
 input:focus,
 button:focus,
 textarea:focus{
     outline: none;
-}
+} 
 button:hover{
     cursor: pointer;
 }
@@ -31,20 +26,27 @@ button:hover{
 }
 
 /* == FORM START == */
-
 .form{
+    position: relative;
+}
+.form.bg-form{
     border: 1px solid #d7d7d7;
 }
 .form .form-row{
     margin-top: 22px;
 }
 .form .form-row span,
+.form .form-row input,
 .form .form-row .choose label{
     font-size: 15px;
     font-weight: 400;
     text-transform: capitalize;
     -ms-flex-item-align: center;
     align-self: center;
+}
+.form .form-row input:focus,
+.form .form-row textarea:focus{
+    background-color: #f6f3d2;
 }
 .form .form-row span sup{
     color: #8bc34a;
@@ -75,14 +77,27 @@ button:hover{
 .form .form-row .btn{
     font-size: 15px;
 }
+/* == FORM END == */
+/* == DEFAULT COMPONENTS END == */
 
-/* = search-form start = */
+
+/*== CUSTOM STYLE START == */
+
+.container.welcome03{
+    padding: 10px 15px;
+    background-color: #acaaac;
+    height: 200px;
+}
+.newsletter03{
+    margin-top: 10px;
+}
+/* == SEARCH-FORM START == */
 .search-form{
-    position: relative;
     color: #90a4ae;
 }
-.search-form [type="search"]{
-    width: 670px;
+.search-form [type="text"]{
+    width: 100%;
+    max-width: 670px;
     height: 58px; 
     background-color: #fff;
     padding: 22px 27px;
@@ -91,28 +106,31 @@ button:hover{
     text-transform: capitalize;
     border: 1px solid #fff;
     border-radius: 4px;
+    -webkit-box-shadow: 0 1px 10px rgba(100, 100, 100, .75);
+    box-shadow: 0 1px 10px rgba(100, 100, 100, .75)
+}
+.search-form [type="text"]:focus{
     -webkit-box-shadow: 0 1px 10px rgba(124, 178, 64, .75);
     box-shadow: 0 1px 10px rgba(124, 178, 64, .75)
 }
-.search-form [type="search"]:focus{
-    border: 1px solid #559705;
-}
-.search-form .fa{
+.search-form .btn.btn-white{
     position: absolute;
-    font-size: 20px;
+    z-index: 89;
     top: 18px;
-    right: 280px;
+    right: 270px;
+    padding: 0;
+    color: #78909c;
+} 
+.search-form .fa{
+    font-size: 20px;
 }
-/* = search-form end = */
+/* == SEARCH-FORM END == */
 
-/* = news-form start = */
-.news-form{
-    position: relative;
-}
+/* == NEWS-FORM START == */
 .news-form input{
     font-size: 14px;
     color: #697378;
-    padding: 11px 15px;
+    padding: 11px 44px 11px 15px;
     background-color: #2f3c43;
     font-weight: 400;
     width: 100%;
@@ -127,23 +145,9 @@ button:hover{
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 89;
 }
-
-/* = news-form end = */
-
-
-/* == FORM END == */
-
-/*== CUSTOM STYLE START == */
-
-.container.welcome03{
-    padding: 10px 15px;
-    background-color: #acaaac;
-    height: 200px;
-}
-.newsletter03{
-    margin-top: 10px;
-}
+/* == NEWS-FORM END == */
 
 /* == PERSONAL-INFO START == */
 .personal-info .form-row{
@@ -158,13 +162,20 @@ button:hover{
 }
 .personal-info .form-row input,
 .personal-info .form-row div:last-child{
-    width: 536px;
+    width: 60%;
 }
 .personal-info .form-row input{
     padding: 13px 16px;
 }
 .personal-info .form-row .btn{
     padding: 16px 24px;
+}
+.personal-info .form-row .btn.btn-white{
+    position: absolute;
+    font-size: 15px;
+    padding: 0;
+    top: 230px;
+    right: 50px;
 }
 /* == PERSONAL-INFO END == */
 
@@ -214,4 +225,111 @@ button:hover{
 }
 /* == UPLOAD-ITEM END == */
 
+/* == DROP-MESSAGE START == */
+.drop-message28 .title{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #333333;
+}
+.drop-message.form .form-row input,
+.drop-message.form .form-row textarea{
+    border: none;
+    background-color: #f1f4f5;
+    margin-right: 43px;
+    padding-left: 17px;
+    width: 350px;
+    height: 42px;
+    color: #7a7a7a;
+}
+.drop-message.form .form-row input:focus,
+.drop-message.form .form-row textarea:focus{
+    outline: 1px solid #d7d7d7;
+}
+.drop-message .form-row > * + *:not(:nth-child(2)){
+    margin-top: 22px;
+}
+.drop-message.form .form-row textarea{
+    width: 100%;
+    margin-top: 28px;
+    height: 192px;
+    padding: 17px;
+    font-size: 15px;
+}
+.drop-message.form .form-row .btn{
+    text-transform: uppercase;
+    padding: 19px 25px;
+}
+
+/* == DROP-MESSAGE END == */
+
+/* == LOGIN START == */
+.login30.container{
+    height: 485px;
+    width: 730px;
+    background-color: #8bc34a;
+    color: #fff;
+    text-align: right;
+}
+.login30 > .btn{
+    font-size: 18px;
+    margin: 21px 28px;
+    padding: 0;
+}
+.login30 .title{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.login30 .form{
+    margin: 0 165px;
+}
+.login30 .form input{
+    height: 43px;
+    background-color: #76ae36;
+    width: 100%;
+    padding-left: 35px;
+    font-size: 14px;
+    color: #fff;
+}
+.login30 .form input:focus{
+    background-color: #6ba42a;
+}
+.login30 .form input:first-child{
+    margin-bottom: 8px;
+}
+.login30 .form input:nth-child(4){
+    height: 53px;
+    width: 62%;
+    margin-top: 20px;
+    padding-left: 65px;
+}
+.login30 .form .fa{
+    position: absolute;
+    left: 17px;
+    top: 13px;
+}
+.login30 .form .fa.fa-lock{
+    top: 64px;
+}
+.login30 .form .fa.fa-pencil-square-o{
+    left: 180px;
+    top: 130px;
+}
+.login30 .form .btn{
+    -webkit-box-shadow:  0 2px 2px rgba(118, 174, 54, .75);
+    box-shadow:  0 2px 2px rgba(118, 174, 54, .75);
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+.login30 .form a{
+    font-size: 18px;
+}
+.login30 .form a:hover{
+    color: #f8cfcf;
+}
+
+/* == LOGIN END == */
 /*== CUSTOM STYLE END == */

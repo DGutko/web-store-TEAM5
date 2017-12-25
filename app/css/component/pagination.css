@@ -1,0 +1,32 @@
+/* == DEFAULT COMPONENTS START == */
+/* == PAGINATION START== */
+.pagination > li{
+    float: left;
+}
+.pagination > li >a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #263238;
+    background-color: #fff;
+    padding: 11px 17px;
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
+    box-shadow: 0 1px 2px rgba(205, 214, 222, .75)
+}
+.pagination > li:not(:first-child) > a{
+    margin-left: 8px;
+}
+.pagination > li.active > a,
+.pagination > li >a:hover{
+    background-color: #e74c3c;
+    color: #fdf6f5;
+}
+/* == PAGINATION END== */
+/* == DEFAULT COMPONENTS END == */
+
+/*== CUSTOM STYLE START == */
+.page{
+    padding: 10px;
+    background-color: #f4f6f5;
+    height: 100px;
+}
+/*== CUSTOM STYLE END == */
