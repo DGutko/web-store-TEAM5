@@ -80,9 +80,8 @@ button:hover{
 /* == FORM END == */
 /* == DEFAULT COMPONENTS END == */
 
-
 /*== CUSTOM STYLE START == */
-
+/* ==styles for visualisation== */
 .container.welcome03{
     padding: 10px 15px;
     background-color: #acaaac;
@@ -91,9 +90,14 @@ button:hover{
 .newsletter03{
     margin-top: 10px;
 }
+/* ==styles for visualisation end== */
+
 /* == SEARCH-FORM START == */
 .search-form{
     color: #90a4ae;
+    position: relative;
+    max-width: 670px;
+    margin: 0 auto;
 }
 .search-form [type="text"]{
     width: 100%;
@@ -107,7 +111,7 @@ button:hover{
     border: 1px solid #fff;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 10px rgba(100, 100, 100, .75);
-    box-shadow: 0 1px 10px rgba(100, 100, 100, .75)
+    box-shadow: 0 1px 10px rgba(100, 100, 100, .75);
 }
 .search-form [type="text"]:focus{
     -webkit-box-shadow: 0 1px 10px rgba(124, 178, 64, .75);
@@ -116,9 +120,9 @@ button:hover{
 .search-form .btn.btn-white{
     position: absolute;
     z-index: 89;
-    top: 18px;
-    right: 270px;
-    padding: 0;
+    top: 4px;
+    right: 5px;
+    padding: 15px;
     color: #78909c;
 } 
 .search-form .fa{
@@ -145,6 +149,7 @@ button:hover{
     position: absolute;
     top: 0;
     right: 0;
+    height: 39px;
     z-index: 89;
 }
 /* == NEWS-FORM END == */
