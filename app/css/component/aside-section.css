@@ -6,8 +6,10 @@ body {
     width: 270px;
     border: 1px solid #dedede;
     padding: 25px 28px 30px 28px;
+    margin-bottom: 20px;
     background-color: #fff;
 }
+
 .aside-title {
     padding-bottom: 20px;
     border-bottom: 1px solid #dde3e8;
@@ -16,7 +18,9 @@ body {
     color: #263238;
     margin-bottom: 25px;  
 }
-.aside-content li {
+
+/* ============== CATEGORIES =========== */
+.categories-content li {
     font-size: 15px;
     font-weight: 400;
     color: #263238;
@@ -28,14 +32,14 @@ body {
     -ms-flex-direction: row;
     flex-direction: row;
 }
-.aside-content li+li {
+.categories-content li+li {
     margin-top: 30px;
 }
-.aside-content li span {
+.categories-content li span {
     color: #90a4ae;
     margin-left: auto;
 }
-.aside-content li a::before{
+.categories-content li a::before{
     font-family: FontAwesome ;
     content: "\f105";
     color: #8bc34a;
@@ -43,3 +47,7 @@ body {
     margin-right: 15px;
     /* <i class="fa fa-angle-right" aria-hidden="true"></i> */
 }
+
+/* ============== Price Range =========== */
+
+/* ============== Top10 Sellers =========== */
