@@ -6,7 +6,8 @@ button, input, textarea{
 }
 input:focus,
 button:focus,
-textarea:focus{
+textarea:focus,
+select:focus{
     outline: none;
 } 
 button:hover{
@@ -37,6 +38,7 @@ button:hover{
 }
 .form .form-row span,
 .form .form-row input,
+.form .form-row select,
 .form .form-row .choose label{
     font-size: 15px;
     font-weight: 400;
@@ -45,7 +47,8 @@ button:hover{
     align-self: center;
 }
 .form .form-row input:focus,
-.form .form-row textarea:focus{
+.form .form-row textarea:focus,
+.form .form-row select:focus{
     background-color: #f6f3d2;
 }
 .form .form-row span sup{
@@ -54,7 +57,8 @@ button:hover{
 }
 .form .form-row input,
 .form .form-row textarea,
-.form .form-row .choose{
+.form .form-row .choose,
+.form .form-row select{
     background-color: #f9f9f9;
     border: 1px solid #dedede;
     height: 40px;
@@ -166,6 +170,7 @@ button:hover{
     margin-bottom: 80px;
 }
 .personal-info .form-row input,
+.personal-info .form-row select,
 .personal-info .form-row div:last-child{
     width: 60%;
 }

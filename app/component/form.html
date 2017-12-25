@@ -62,10 +62,11 @@
                 </div>
                 <div class="form-row d-flex justify-content-between">
                     <span>Country</span>
-                    <input type="text" name="Country" placeholder="Select Your Country">
-                    <button class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </button>
+                    <select name="select" id="" aria-placeholder="Select Your Country">
+                        <option value="Great Britain">Great Britain</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="USA">USA</option>
+                    </select>
                 </div>
                 <div class="form-row d-flex justify-content-between">
                     <span>Address Line 1</span>
@@ -94,7 +95,7 @@
                     </div>
                 </div>
             </form>
-            <!-- /personal info -->
+            <!-- /personal-info -->
         </div>    
     </div>
     <!-- /Personal-Information16 -->
@@ -197,5 +198,10 @@
             </form>
         </div>
     </div> 
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+    
 </body>
 </html>
