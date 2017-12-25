@@ -1,12 +1,119 @@
-/* ========== card ========== */
-.item{
+/*      здесь написана разметка для 2 видов карточек, которые находятся в блоках md-3(верт.) и md-9(гор.) файла card-item.html
+    для подлючения классов, которые контролируют отображения в блоке "col-md-3"нужноо расскоментировать код ниже
+
+/* ========== col-md-3 ========== */ 
+
+/* .item{
     flex-direction: column;
 }
-.item .item-img{
-    height: 100px;
-    background-color: gray;
+.sales,
+.social-rating{
+    display: none;
+} */
+
+/* ========== col-md-3 ========== */
+
+
+
+
+/* ========== card ========== */
+.item{
+    width: 100%;
+    border: 1px solid #ebeeef;
+    transition: all .2s linear;
 }
-.item .item-description{
-    height: 200px;
-    background-color: lightblue;
+.item:hover {
+    box-shadow: 7px 7px 20px #d9dada;
+}
+.item .item-img{
+    /* нужно задать размер изображения для горизонтальной карточки */
+}
+
+/* ----font style---- */
+.item .item-description .item-info .info,
+.item .item-description .item-profile .profile-title span,
+.item .item-description .item-profile .social-rating {
+    font: 500 14px/1 'Roboto',sans-serif;
+    color: rgba(139, 195, 74, .8);
+}
+.item .item-description .item-info .info span:first-child,
+.item .item-description .item-profile .profile-rating span:first-child,
+.item .item-description .item-profile .social-rating span>span,
+.item .item-description .item-info .price {
+    font-size: 16px; 
+    color: rgba(38, 50, 56, .8);
+}
+.item .item-description .item-info .price {
+    font: 700 20px/1 'Roboto',sans-serif;
+}
+.item .item-description .item-profile .profile-title span {
+    color: rgba(84, 110, 122, .8);
+}
+.item .item-description .item-profile .profile-rating span,
+.item .item-description .item-profile .social-rating span, 
+.item .item-description .sales span{
+    color: #b0bec5;
+}
+.item .item-description .item-profile .profile-rating span,
+.item .item-description .item-profile .profile-rating span:first-child,
+.item .item-description .item-profile .social-rating span,
+.item .item-description .item-profile .social-rating span span {
+    font-size: 12px;
+}
+/* ----font style end---- */
+
+.item .item-description .item-info .info,
+.item .item-description .item-profile .profile-title,
+.item .item-description .sales span {
+    margin-left: 20px;
+}
+
+.item .item-description .item-profile .profile-rating,
+.item .item-description .item-info .price,
+.item .item-description .sales span,
+.item .item-description .social-rating {
+    margin-right: 24px;
+}
+
+.item .item-description .item-profile .profile-rating>span,
+.item .item-description .item-profile .profile-title span {
+    margin-left: 10px;
+}
+
+.item .item-description .item-info {
+    border-bottom: 1px solid #e7ecf2;
+    height: 90px;
+}
+/* высота первого блока */
+
+.item .item-description .item-profile {
+    height: 65px;
+}
+/* высота второго блока */
+
+.item .item-description .item-profile .profile-rating {
+    justify-content: flex-end;
+}
+.item .item-description .item-profile .profile-rating ul>li {
+    color: #ffa726;
+    font-size: 12px;
+}
+.item .item-description .social-rating{
+    justify-content: space-between;
+    width: 30%;
+}
+.item .item-description {
+    width: 100%;
+}
+.item .item-description .item-info .price span {
+    font-size: 30px;
+}
+.profile-title {
+    flex-grow: 3;  
+}
+.profile-rating {
+    flex-grow: 3;
+}
+.social-rating {
+    flex-grow: 1;
 }
