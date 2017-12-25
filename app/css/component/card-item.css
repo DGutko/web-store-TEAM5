@@ -1,22 +1,25 @@
-/*      здесь написана разметка для 2 видов карточек, которые находятся в блоках md-3(верт.) и md-9(гор.) файла card-item.html
-    для подлючения классов, которые контролируют отображения в блоке "col-md-3"нужноо расскоментировать код ниже
+/* ========== подключаемые классы в col-md-3 для вертикального отображения карточки ========== */ 
 
-/* ========== col-md-3 ========== */ 
-
-.item{
+.item-active{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
-.sales,
-.social-rating{
+.item-active:hover {
+    -webkit-box-shadow: 7px 7px 20px #d9dada;
+    box-shadow: 7px 7px 20px #d9dada;
+}
+.sales-active,
+.social-rating-active{
     display: none;
 }
+.item .item-img-active img{
+    max-width: 100% !important;
+}
 
-/* ========== col-md-3 ========== */
+/* ========== col-md-9 ========== */
 
-
-
-
-/* ========== card ========== */
 .item{
     width: 100%;
     border: 1px solid #ebeeef;
@@ -27,8 +30,8 @@
     -webkit-box-shadow: 7px 7px 20px #d9dada;
     box-shadow: 7px 7px 20px #d9dada;
 }
-.item .item-img{
-    /* нужно задать размер изображения для горизонтальной карточки */
+.item .item-img img{
+    max-width: 240px;
 }
 
 /* ----font style---- */

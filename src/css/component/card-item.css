@@ -1,34 +1,31 @@
-/*      здесь написана разметка для 2 видов карточек, которые находятся в блоках md-3(верт.) и md-9(гор.) файла card-item.html
-    для подлючения классов, которые контролируют отображения в блоке "col-md-3"нужноо расскоментировать код ниже
+/* ========== подключаемые классы в col-md-3 для вертикального отображения карточки ========== */ 
 
-/* ========== col-md-3 ========== */ 
-
-/* .item{
+.item-active{
     flex-direction: column;
 }
-.sales,
-.social-rating{
+.item-active:hover {
+    box-shadow: 7px 7px 20px #d9dada;
+}
+.sales-active,
+.social-rating-active{
     display: none;
-} */
+}
+.item .item-img-active img{
+    max-width: 100% !important;
+}
 
-/* ========== col-md-3 ========== */
+/* ========== col-md-9 ========== */
 
-
-
-
-/* ========== card ========== */
 .item{
     width: 100%;
     border: 1px solid #ebeeef;
-    -webkit-transition: all .2s linear;
     transition: all .2s linear;
 }
 .item:hover {
-    -webkit-box-shadow: 7px 7px 20px #d9dada;
     box-shadow: 7px 7px 20px #d9dada;
 }
-.item .item-img{
-    /* нужно задать размер изображения для горизонтальной карточки */
+.item .item-img img{
+    max-width: 240px;
 }
 
 /* ----font style---- */
@@ -94,8 +91,6 @@
 /* высота второго блока */
 
 .item .item-description .item-profile .profile-rating {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
     justify-content: flex-end;
 }
 .item .item-description .item-profile .profile-rating ul>li {
@@ -103,8 +98,6 @@
     font-size: 12px;
 }
 .item .item-description .social-rating{
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 30%;
 }
@@ -115,17 +108,11 @@
     font-size: 30px;
 }
 .profile-title {
-    -webkit-box-flex: 3;
-    -ms-flex-positive: 3;
     flex-grow: 3;  
 }
 .profile-rating {
-    -webkit-box-flex: 3;
-    -ms-flex-positive: 3;
     flex-grow: 3;
 }
 .social-rating {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
 }
