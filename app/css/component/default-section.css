@@ -1,0 +1,8 @@
+/* ========== default-section ========== */
+.default-section{
+    padding: 120px 0;
+}
+.default-section.big{
+    padding: 150px 0 170px 0;
+}   
+/* default-big нужен для иннера т.к. у него паддинги больше*/
