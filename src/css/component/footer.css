@@ -93,8 +93,6 @@ h5 {
 .footer .social-nav li a {
     display: block;
     border-radius: 2px;
-    line-height: 1;
-    overflow: hidden;
     transition: all .3s;
 }
 
