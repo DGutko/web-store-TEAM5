@@ -12,14 +12,19 @@
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="../css/font-awesome.css">
     
-    <!-- Custom style -->
+    <!-- Reset -->
+    <link rel="stylesheet" href="../css/reset.css">
+   
+    <!-- Flex -->
+    <link rel="stylesheet" href="../css/flex.css">
+   
+    <!-- Grid -->
+    <link rel="stylesheet" href="../css/grid.css">
+
+    <!-- Componennts -->
     <link rel="stylesheet" href="../css/component/form.css">
     <link rel="stylesheet" href="../css/component/btn.css">
-    <link rel="stylesheet" href="../css/flex.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/grid.css">
-    
-    
+        
 </head>
 <body>
     <div class="container welcome03">
@@ -62,7 +67,7 @@
                 </div>
                 <div class="form-row d-flex justify-content-between">
                     <span>Country</span>
-                    <select name="select" id="" aria-placeholder="Select Your Country">
+                    <select name="select_country" id="" data-placeholder="Select Your Country">
                         <option value="Great Britain">Great Britain</option>
                         <option value="Ukraine">Ukraine</option>
                         <option value="USA">USA</option>
@@ -126,8 +131,8 @@
                 <div class="form-row d-flex justify-content-between">
                     <span>Upload Screenshots <sup>*</sup></span>
                     <div class="choose d-flex">
-                        <input type="file" name="upload_screenshpts" id="upload_screenshpts">
-                        <label for="upload_screenshpts">Choose File</label>
+                        <input type="file" name="upload_screenshots" id="upload_screenshots">
+                        <label for="upload_screenshots">Choose File</label>
                         <span>No File Choosen</span>
                     </div>
                 </div>
@@ -200,7 +205,7 @@
     </div> 
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
     
 </body>

@@ -1,6 +1,5 @@
 /* == RESET START == */
-
-button, input, textarea{
+button, input, textarea, select{
     border: none;
     font: inherit;
 }
@@ -15,7 +14,7 @@ button:hover{
 }
 /* == RESET END == */
 
-/* == DEFAULT COMPONENTS START == */
+/* == DEFAULT CLASSES START == */
 .text-bold{
     font-weight: 700 !important;
 }
@@ -25,7 +24,9 @@ button:hover{
 .text-center{
     text-align: center !important;
 }
+/* == DEFAULT CLASSES END == */
 
+/* == DEFAULT COMPONENTS START == */
 /* == FORM START == */
 .form{
     position: relative;
@@ -45,6 +46,7 @@ button:hover{
     text-transform: capitalize;
     -ms-flex-item-align: center;
     align-self: center;
+    color: #707070;
 }
 .form .form-row input:focus,
 .form .form-row textarea:focus,
@@ -176,6 +178,9 @@ button:hover{
 }
 .personal-info .form-row input{
     padding: 13px 16px;
+}
+.personal-info .form-row select{
+    padding-left: 16px;
 }
 .personal-info .form-row .btn{
     padding: 16px 24px;
