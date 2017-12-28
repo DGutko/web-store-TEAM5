@@ -4,6 +4,9 @@ body{
     font: 400 15px/1 'Roboto', 'sans serif';
     color: #707070;
 }
+p{
+    line-height: 1.7em;
+}
 /* ==== RESET END ==== */
 
 /* ==== DEFAULT STYLES START ==== */
@@ -32,12 +35,62 @@ body{
 .text-lightgrey{
     color: #b0bec5;
 }
+.text-center{
+    text-align: center;
+}
+.text-footer{           /* Денисе, чи потрібен цей клас, колір майже едентичний з .text-lightgrey?*/
+    color: #b7c3c8; 
+}
 /* == TEXT STYLES END == */
 
 /* == TITLE START == */
-
+.title{
+    font-size: 36px;
+    font-weight: 700;
+}
+.title.title-footer{
+    font: 700 22px/1 'Raleway','sans serif';
+    color: #fff;
+}
+.title.title-big{
+    font-size: 48px;
+}
+.title.title-small{
+    font-size: 20px;
+}
+.title.title-xs{
+    font-size: 16px;
+}
+.title.title-mid{
+    font-size: 24px;
+}
 /* == TITLE END == */
 /* ==== DEFAULT STYLES END ==== */
+
+/* ==== CUSTOM STYLES START ==== */
+.search03 .title:nth-child(2){
+    margin-top: 35px;
+}
+.why-choose03{
+    padding-top: 125px;
+    padding-bottom: 118px;
+}
+.why-choose03 .row > .title{
+    margin-bottom: 90px;
+}
+.why-choose03 p{
+    margin-top: 25px;
+}
+.footer{
+    margin-top: 10px;
+}
+.footer .title{
+    padding-top: 85px;
+    margin-bottom: 25px;
+}
+/* ==== CUSTOM STYLES END ==== */
+
+
 
 /* title bold white  */
 /* .text-tbw {

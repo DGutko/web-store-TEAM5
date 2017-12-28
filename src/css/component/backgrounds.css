@@ -1,20 +1,19 @@
-/* background white  */
-.bg-white {
-    color: #ffffff;
+/* == BACKGROUND START == */
+.bg-default {
+    background-color: #f4f6f5;
 }
-/* background img  */
-.bg-img {
-    background-image: url("../img/shape1.png") no-repeat center/cover;
+.bg-white{
+    background-color: #ffffff;
 }
-/* background gray  */
-.bg-gray {
-    color: #f4f6f5;
+.bg-search{
+    background: url("../../../app/img/bg-search.jpg") no-repeat center/cover;
+    height: 100%;
 }
-/* background green  */
 .bg-green {
-    color: #8bc34a;
+    background-color: #8bc34a;
 }
-/* background dark blue  */
-.bg-footer {
-    color: #263238;
+
+.bg-dark {
+    background-color: #263238;
 }
+/* == BACKGROUND END == */
