@@ -1,36 +1,78 @@
+/* ==== RESET START ==== */
+body{
+    margin: 0;
+    font: 400 15px/1 'Roboto', 'sans serif';
+    color: #707070;
+}
+/* ==== RESET END ==== */
+
+/* ==== DEFAULT STYLES START ==== */
+/* == TEXT-STYLES START == */
+.text-medium{
+    font-weight: 500;
+}
+.text-bold{
+    font-weight: 700;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-normal{
+    text-transform: none;
+}
+.text-white{
+    color: #fff;
+}
+.text-dark{
+    color: #263238;
+}
+.text-green{
+    color: #8bc34a;
+}
+.text-lightgrey{
+    color: #b0bec5;
+}
+/* == TEXT STYLES END == */
+
+/* == TITLE START == */
+
+/* == TITLE END == */
+/* ==== DEFAULT STYLES END ==== */
+
 /* title bold white  */
-.text-tbw {
+/* .text-tbw {
     text-transform: capitalize;
     font-weight: 700;
     color: #ffffff;
-}
+} */
 /* title bold black  */
-.text-tbb {
+/* .text-tbb {
     text-transform: capitalize;
     font-weight: 700;
     color: #000000;
-}
+} */
 /* title white  */
-.text-tw {
+/* .text-tw {
     text-transform: none;
     font-weight: 500;
     color: #ffffff;
-}
+} */
 /* title black  */
-.text-tb {
+/* .text-tb {
     text-transform: none;
     font-weight: 500;
     color: #000000;
-}
+} */
 /* regular white  */
-.text-rw {
+/* .text-rw {
     text-transform: none;
     font-weight: 400;
     color: #ffffff;
-}
+} */
 /* regular black  */
-.text-rb {
+/* .text-rb {
     text-transform: none;
     font-weight: 400;
     color: #707070;
-}
+} */
+
