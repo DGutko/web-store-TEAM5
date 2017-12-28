@@ -1,0 +1,36 @@
+/* title bold white  */
+.text-tbw {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #ffffff;
+}
+/* title bold black  */
+.text-tbb {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #000000;
+}
+/* title white  */
+.text-tw {
+    text-transform: none;
+    font-weight: 500;
+    color: #ffffff;
+}
+/* title black  */
+.text-tb {
+    text-transform: none;
+    font-weight: 500;
+    color: #000000;
+}
+/* regular white  */
+.text-rw {
+    text-transform: none;
+    font-weight: 400;
+    color: #ffffff;
+}
+/* regular black  */
+.text-rb {
+    text-transform: none;
+    font-weight: 400;
+    color: #707070;
+}

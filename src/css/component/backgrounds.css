@@ -1,0 +1,20 @@
+/* background white  */
+.bg-w {
+    color: #ffffff;
+}
+/* background img  */
+.bg-img {
+    background-image: url("../img/shape1.png") no-repeat center/cover;
+}
+/* background gray  */
+.bg-gray {
+    color: #f4f6f5;
+}
+/* background green  */
+.bg-green {
+    color: #8bc34a;
+}
+/* background dark blue  */
+.bg-db {
+    color: #263238;
+}
