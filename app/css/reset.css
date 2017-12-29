@@ -1,3 +1,4 @@
+/* ==== RESET START ==== */
 *{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -6,6 +7,9 @@ body{
     margin: 0;
     color: #707070;
     font: 400 15px/1.6 'Roboto', sans-serif;
+}
+p{
+    line-height: 1.7em;
 }
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -32,3 +36,85 @@ textarea{
 .text-center{
     text-align: center;
 }
+/* ==== RESET END ==== */
+
+/* ==== DEFAULT STYLES START ==== */
+/* == TEXT-STYLES START == */
+.text-medium{
+    font-weight: 500;
+}
+.text-bold{
+    font-weight: 700;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-normal{
+    text-transform: none;
+}
+.text-white{
+    color: #fff;
+}
+.text-dark{
+    color: #263238;
+}
+.text-green{
+    color: #8bc34a;
+}
+.text-lightgrey{
+    color: #b0bec5;
+}
+.text-center{
+    text-align: center;
+}
+.text-adress{
+    font: 400 14px/1,4 'Lato', 'sans serif';
+    color: #fff;
+}
+/* == TEXT STYLES END == */
+
+/* == BACKGROUND START == */
+.bg-default {
+    background-color: #f4f6f5;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.bg-search{
+    background: url("../img/bg-search.jpg") no-repeat center/cover;
+    height: 100%;
+}
+.bg-green {
+    background-color: #8bc34a;
+}
+
+.bg-dark {
+    background-color: #263238;
+}
+/* == BACKGROUND END == */
+
+/* == TITLE START == */
+
+.title{
+    font-size: 36px;
+    font-weight: 700;
+}
+.title.title-footer{
+    font: 700 22px/1 'Raleway','sans serif';
+    color: #fff;
+    line-height: 1.09;
+}
+.title.title-big{
+    font-size: 48px;
+}
+.title.title-small{
+    font-size: 20px;
+}
+.title.title-xs{
+    font-size: 16px;
+}
+.title.title-mid{
+    font-size: 24px;
+}
+/* == TITLE END == */
+/* ==== DEFAULT STYLES END ==== */
