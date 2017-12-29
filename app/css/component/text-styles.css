@@ -41,6 +41,10 @@ p{
 .text-footer{           /* Денисе, чи потрібен цей клас, колір майже едентичний з .text-lightgrey?*/
     color: #b7c3c8; 
 }
+.text-adress{
+    font: 400 14px/1,4 'Lato', 'sans serif';
+    color: #fff;
+}
 /* == TEXT STYLES END == */
 
 /* == TITLE START == */
