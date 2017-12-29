@@ -1,7 +1,8 @@
 /* == RESET START == */
-button, input, textarea, select{
+button, input, textarea, select, label{
     border: none;
     font: inherit;
+    font-size: 15px;
 }
 input:focus,
 button:focus,
@@ -56,15 +57,12 @@ button:hover{
     color: #8bc34a;
     font-size: 24px;
 }
-.form .form-row input,
-.form .form-row textarea,
-.form .form-row .choose,
-.form .form-row select{
+.form-item{
     background-color: #f9f9f9;
     border: 1px solid #dedede;
     height: 40px;
 }
-.form .form-row .choose{
+.form-item.form-item-wide{
     height: 42px;
 }
 .form .form-row .choose label{
@@ -110,9 +108,7 @@ button:hover{
     height: 58px; 
     background-color: #fff;
     padding: 22px 27px;
-    font-size: 14px;
     font-weight: 500;
-    text-transform: capitalize;
     border: 1px solid #fff;
     border-radius: 4px;
     box-shadow: 0 1px 10px rgba(100, 100, 100, .75);
@@ -135,11 +131,9 @@ button:hover{
 
 /* == NEWS-FORM START == */
 .news-form input{
-    font-size: 14px;
     color: #697378;
     padding: 11px 44px 11px 15px;
     background-color: #2f3c43;
-    font-weight: 400;
     width: 100%;
     box-shadow: -2px -2px 0 rgba(0, 0, 0, .9)
 }
@@ -167,12 +161,11 @@ button:hover{
     margin-top: 25px;
     margin-bottom: 80px;
 }
-.personal-info .form-row input,
-.personal-info .form-row select,
+.personal-info .form-row .form-item,
 .personal-info .form-row div:last-child{
     width: 60%;
 }
-.personal-info .form-row input{
+.personal-info .form-row .form-item{
     padding: 13px 16px;
 }
 .personal-info .form-row select{
@@ -214,9 +207,6 @@ button:hover{
 .upload-item .form-row .choose input{
     display: none;
 }
-.upload-item .form-row .choose{
-
-} 
 .upload-item .form-row textarea{
     height: 148px;
 }
@@ -296,13 +286,12 @@ button:hover{
 .login30 .form{
     margin: 0 165px;
 }
-.login30 .form input{
-    height: 43px;
+.login30 .form .form-item{
     background-color: #76ae36;
     width: 100%;
     padding-left: 35px;
-    font-size: 14px;
     color: #fff;
+    border: none;
 }
 .login30 .form input:focus{
     background-color: #6ba42a;
@@ -311,7 +300,7 @@ button:hover{
     margin-bottom: 8px;
 }
 .login30 .form input:nth-child(4){
-    height: 53px;
+    height: 50px;
     width: 62%;
     margin-top: 20px;
     padding-left: 65px;
@@ -328,10 +317,11 @@ button:hover{
     left: 180px;
     top: 130px;
 }
-.login30 .form .btn{
+.login30 .form .btn.btn-white{
     box-shadow:  0 2px 2px rgba(118, 174, 54, .75);
     margin-top: 20px;
     margin-bottom: 27px;
+    padding: 17px 44px;
 }
 .login30 .form a{
     font-size: 18px;

@@ -12,7 +12,7 @@ button{
 .text-uppercase{
     text-transform: uppercase !important;
 }
-/* == BTN START == */
+/* ==== BTN START ==== */
 .btn{
     display: inline-block;
     font-weight: 500;
@@ -21,23 +21,29 @@ button{
     padding: 17px 24px;
     color: #f4f6f5;
     text-transform: capitalize;
-}
-.btn.btn-green{
     background-color: #8bc34a;
 }
-.btn.btn-green:hover{
+.btn:hover{
 	background-color: #6da231;
 }
-.btn.btn-dark-blue{
+.btn.btn-radius{
+    border: 1px solid #e74c3c;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 9px 17px;
+}
+/* == BTN COLORS START ==*/
+.btn.btn-darkblue{
     background-color: #546e7a;
 }
-.btn.btn-dark-blue:hover{
+.btn.btn-darkblue:hover{
 	background-color: #455a64
 }
-.btn.btn-pink{
+.btn.btn-red{
     background-color: #e74c3c;
 }
-.btn.btn-pink:hover{
+.btn.btn-red:hover{
 	background-color: #d13c2d;
 }
 .btn.btn-blue{
@@ -49,41 +55,10 @@ button{
 .btn.btn-white{
     background-color: #fff;
     color: #000000;
-    padding: 18px 44px;
+    padding: 20px 44px;
 }
 .btn.btn-white:hover{
 	background-color: #ededed;
-}
-.btn.btn-radius{
-    border: 1px solid #e74c3c;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 400;
-    padding: 9px 17px;
-}
-.btn.btn-full{
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-}
-.btn.btn-shadow{
-    box-shadow: 0 1px 2px rgba(69, 90, 100, .75)
-}
- .btn.btn-full.btn-fat{ /*не впевнений в потрібності */
-     padding: 18px; 
-}
-.btn.btn-shadow{
-    box-shadow: 0 1px 3px rgba(204, 216, 228, .75)
-
-}
-.btn.btn-drop{
-    font-size: 14px;
-    padding: 10px 20px;
-    text-transform: none;
-} 
-.btn.btn-small{
-    padding: 9px 14px;
-	font-size: 20px; 
 }
 .btn.btn-transparent{
     background-color: transparent;
@@ -91,24 +66,46 @@ button{
     font-size: 14px;
     padding: 20px 30px;
 }
-/* .btn.btn-bold{
-    font-weight: 700;
-} */
-/* .btn.btn-submit{
-    font-size: 14px;
-    text-transform: uppercase;
+/* == BTN COLORS END == */
+
+/* == BTN SIZE START  == */
+.btn.btn-full{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
 }
-.btn.btn-author{
-    font-size: 18px;
-} */
-/* == BTN END == */
-/* == DEFAULT COMPONENTS END == */
+.btn.btn-drop{
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: none;
+}
+.btn.btn-small{
+    padding: 9px 14px;
+	font-size: 20px; 
+}
+.btn.btn-xs{
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0 20px;
+}
+/* == BTN SIZE END == */
+
+/* == BTN SHADOW START == */
+.btn.btn-shadow{
+    box-shadow: 0 1px 2px rgba(69, 90, 100, .75)
+}
+.btn.btn-white-shadow{
+    box-shadow: 0 1px 3px rgba(204, 216, 228, .75)
+}
+.btn.btn-green-shadow{
+    box-shadow:  0 2px 2px rgba(118, 174, 54, .75)
+}
+/* == BTN SHADOW END == */  
+/* ==== BTN END ==== */
+/* ==== DEFAULT COMPONENTS END ==== */
 
 
 /*== CUSTOM STYLE START == */
-div{
-    margin-top: 10px;
-}
 .price-range04,
 .post-grid04,
 .product-price09,
@@ -133,17 +130,10 @@ div{
     background-color: #8bc34a;
     padding: 10px;
 }
-.become-author03 .btn{
-    padding: 23px 44px;
-    font-size: 18px;
-}
 .price-range04,
 .post-grid04,
 .product-price09{
     width: 210px;
-}
-.post-grid04 .btn{
-    font-size: 15px;
 }
 .drop08 .btn + .btn{
     margin-left: 5px;
@@ -161,11 +151,6 @@ div{
     font-size: 15px;
     padding: 16px 24px;    
 }
-.your-sales22 .btn{
-    font-size: 12px;
-    line-height: 28px;
-    padding: 0 20px;
-}
 .not-found29{
     background-color: #8bc34a;
     padding: 10px;
@@ -175,8 +160,6 @@ div{
     background-color: #8bc34a;
     padding: 10px;
 }
-.submit30 .btn{
-    box-shadow:  0 2px 2px rgba(118, 174, 54, .75)
-}
+
 /*== CUSTOM STYLE END == */
 

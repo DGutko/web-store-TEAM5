@@ -1,8 +1,5 @@
 /* == DEFAULT COMPONENTS START == */
 /* == PAGINATION START== */
-.pagination > li{
-    float: left;
-}
 .pagination > li >a{
     font-size: 16px;
     font-weight: 500;
