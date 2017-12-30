@@ -10,7 +10,8 @@ textarea:focus,
 select:focus{
     outline: none;
 } 
-button:hover{
+button:hover,
+label:hover{
     cursor: pointer;
 }
 /* == RESET END == */
@@ -38,20 +39,7 @@ button:hover{
 .form .form-row{
     margin-top: 22px;
 }
-.form .form-row span,
-.form .form-row input,
-.form .form-row select,
-.form .form-row .choose label{
-    font-size: 15px;
-    font-weight: 400;
-    text-transform: capitalize;
-    -ms-flex-item-align: center;
-    align-self: center;
-    color: #707070;
-}
-.form .form-row input:focus,
-.form .form-row textarea:focus,
-.form .form-row select:focus{
+.form .form-row .form-item:focus{
     background-color: #f6f3d2;
 }
 .form .form-row span sup{
@@ -62,6 +50,8 @@ button:hover{
     background-color: #f9f9f9;
     border: 1px solid #dedede;
     height: 40px;
+    -ms-flex-item-align: center;
+    align-self: center;
 }
 .form-item.form-item-wide{
     height: 42px;
@@ -72,8 +62,7 @@ button:hover{
     background-color: #fff;
     border: 1px solid #dedede;
     margin-left: 8px;
-    cursor: pointer;
-}
+ }
 .form .form-row .choose span{
     font-size: 12px;
     margin-left: 15px;

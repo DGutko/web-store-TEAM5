@@ -10,7 +10,8 @@ textarea:focus,
 select:focus{
     outline: none;
 } 
-button:hover{
+button:hover,
+label:hover{
     cursor: pointer;
 }
 /* == RESET END == */
@@ -38,19 +39,7 @@ button:hover{
 .form .form-row{
     margin-top: 22px;
 }
-.form .form-row span,
-.form .form-row input,
-.form .form-row select,
-.form .form-row .choose label{
-    font-size: 15px;
-    font-weight: 400;
-    text-transform: capitalize;
-    align-self: center;
-    color: #707070;
-}
-.form .form-row input:focus,
-.form .form-row textarea:focus,
-.form .form-row select:focus{
+.form .form-row .form-item:focus{
     background-color: #f6f3d2;
 }
 .form .form-row span sup{
@@ -61,6 +50,7 @@ button:hover{
     background-color: #f9f9f9;
     border: 1px solid #dedede;
     height: 40px;
+    align-self: center;
 }
 .form-item.form-item-wide{
     height: 42px;
@@ -71,8 +61,7 @@ button:hover{
     background-color: #fff;
     border: 1px solid #dedede;
     margin-left: 8px;
-    cursor: pointer;
-}
+ }
 .form .form-row .choose span{
     font-size: 12px;
     margin-left: 15px;
@@ -130,7 +119,7 @@ button:hover{
 /* == SEARCH-FORM END == */
 
 /* == NEWS-FORM START == */
-.news-form input{
+.news-form .form-item{
     color: #697378;
     padding: 11px 44px 11px 15px;
     background-color: #2f3c43;
@@ -227,23 +216,17 @@ button:hover{
 
 /* == DROP-MESSAGE START == */
 .drop-message28 .title{
-    font-size: 24px;
-    font-weight: 500;
-    text-transform: capitalize;
     color: #333333;
 }
-.drop-message.form .form-row input,
-.drop-message.form .form-row textarea{
+.drop-message.form .form-row .form-item{
     border: none;
     background-color: #f1f4f5;
     margin-right: 43px;
     padding-left: 17px;
     width: 350px;
-    height: 42px;
     color: #7a7a7a;
 }
-.drop-message.form .form-row input:focus,
-.drop-message.form .form-row textarea:focus{
+.drop-message.form .form-row .form-item:focus{
     outline: 1px solid #d7d7d7;
 }
 .drop-message .form-row > * + *:not(:nth-child(2)){
@@ -257,8 +240,7 @@ button:hover{
     font-size: 15px;
 }
 .drop-message.form .form-row .btn{
-    text-transform: uppercase;
-    padding: 19px 25px;
+   padding: 19px 25px;
 }
 
 /* == DROP-MESSAGE END == */

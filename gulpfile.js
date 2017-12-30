@@ -5,7 +5,7 @@ const merge = require('merge-stream');
 const tinypng = require('gulp-tinypng');
 
 gulp.task('autoprefixer', function () {
-    gulp.src('src/css/**/*.css')
+    gulp.src('src/css/*.css')
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
@@ -45,7 +45,7 @@ gulp.task('tinypng', function () {
 
 gulp.task('watch', ['autoprefixer', 'sprite', 'tinypng'], function () {
 
-    gulp.watch( 'src/css/**/*.css', ['autoprefixer'] );
+    gulp.watch( 'src/css/*.css', ['autoprefixer'] );
     gulp.watch( 'src/sprite/*.png', ['sprite'] );
     gulp.watch( 'src/img**/*', ['tinypng'] );
 
