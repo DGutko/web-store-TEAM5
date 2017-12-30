@@ -1,0 +1,168 @@
+/* == RESET START == */
+
+button{
+    border: none;
+}
+/* == RESET END == */
+
+/* == DEFAULT COMPONENTS START == */
+.text-bold{
+    font-weight: 700 !important;
+}
+.text-uppercase{
+    text-transform: uppercase !important;
+}
+/* ==== BTN START ==== */
+.btn{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+	line-height: 1;
+    padding: 17px 24px;
+    color: #f4f6f5;
+    text-transform: capitalize;
+    background-color: #8bc34a;
+}
+.btn:hover{
+	background-color: #6da231;
+}
+.btn.btn-radius{
+    border: 1px solid #e74c3c;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 9px 17px;
+}
+/* == BTN COLORS START ==*/
+.btn.btn-darkblue{
+    background-color: #546e7a;
+}
+.btn.btn-darkblue:hover{
+	background-color: #455a64
+}
+.btn.btn-red{
+    background-color: #e74c3c;
+}
+.btn.btn-red:hover{
+	background-color: #d13c2d;
+}
+.btn.btn-blue{
+    background-color: #42a5f5;
+}
+.btn.btn-blue:hover{
+	background-color: #3f8ccb;
+}
+.btn.btn-white{
+    background-color: #fff;
+    color: #000000;
+    padding: 20px 44px;
+}
+.btn.btn-white:hover{
+	background-color: #ededed;
+}
+.btn.btn-transparent{
+    background-color: transparent;
+    border-color: #fff;
+    font-size: 14px;
+    padding: 20px 30px;
+}
+/* == BTN COLORS END == */
+
+/* == BTN SIZE START  == */
+.btn.btn-full{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.btn.btn-drop{
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: none;
+}
+.btn.btn-small{
+    padding: 9px 14px;
+	font-size: 20px; 
+}
+.btn.btn-xs{
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0 20px;
+}
+/* == BTN SIZE END == */
+
+/* == BTN SHADOW START == */
+.btn.btn-shadow{
+    -webkit-box-shadow: 0 1px 2px rgba(69, 90, 100, .75);
+    box-shadow: 0 1px 2px rgba(69, 90, 100, .75)
+}
+.btn.btn-white-shadow{
+    -webkit-box-shadow: 0 1px 3px rgba(204, 216, 228, .75);
+    box-shadow: 0 1px 3px rgba(204, 216, 228, .75)
+}
+.btn.btn-green-shadow{
+    -webkit-box-shadow:  0 2px 2px rgba(118, 174, 54, .75);
+    box-shadow:  0 2px 2px rgba(118, 174, 54, .75)
+}
+/* == BTN SHADOW END == */  
+/* ==== BTN END ==== */
+/* ==== DEFAULT COMPONENTS END ==== */
+
+
+/*== CUSTOM STYLE START == */
+.price-range04,
+.post-grid04,
+.product-price09,
+.About-Author10{
+    width: 210px;
+}
+.header03 .btn.btn-green{
+    border-color: #8bc34a;
+}
+.header03 .btn + .btn{
+    margin-left: 7px;
+}
+.lets-check03{
+    background-color: #f4f6f5;
+    text-align: center;
+    padding: 10px;
+}
+.lets-check03 .btn:first-child{
+    margin-right: 12px;
+}
+.become-author03{
+    background-color: #8bc34a;
+    padding: 10px;
+}
+.price-range04,
+.post-grid04,
+.product-price09{
+    width: 210px;
+}
+.drop08 .btn + .btn{
+    margin-left: 5px;
+}
+.product-price09 .btn + .btn{
+    margin-top: 7px;
+}
+.gtbuilder09 .btn + .btn{
+    margin-left: 20px;
+}
+.About-Author10 .btn + .btn{
+    margin-top: 18px;
+}
+.Personal-Information16 .btn{
+    font-size: 15px;
+    padding: 16px 24px;    
+}
+.not-found29{
+    background-color: #8bc34a;
+    padding: 10px;
+    text-align: center;
+}
+.submit30{
+    background-color: #8bc34a;
+    padding: 10px;
+}
+
+/*== CUSTOM STYLE END == */
+
