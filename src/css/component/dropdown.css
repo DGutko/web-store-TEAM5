@@ -30,7 +30,7 @@
     line-height: 34px;
     text-align: center;
     background-color: #c4ccd0;
-    border-radius: 17px;
+    border-radius: 50%;
     position: relative;
     height: 34px;
     width: 34px;
@@ -78,7 +78,7 @@
 
 .header-top .profile .profile-img{
     background-color: #57c1c2;
-    border-radius: 34px;
+    border-radius: 50%;
     height: 34px;
     width: 34px;
 }
@@ -119,11 +119,11 @@
     font-weight: 500;
     
 }
-.header-bottom a{
+.header-bottom nav{
     padding: 25px 0;
 }
 
-.header-bottom a + a{
+.header-bottom nav + nav{
     margin-left: 40px;
 }
 /* ========header end========== */
@@ -142,7 +142,7 @@
     z-index: 99;
     background-color: #fff;
     border: 1px solid #d3d3d3;
-    box-shadow: 0 16px 20px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 16px 20px rgba(0, 0, 0, 0.15);
     min-width: 270px;
 }
 
@@ -161,6 +161,11 @@
 
 .dropdown-notifications .dropdown-menu .notifications-item:last-child{
     border-bottom: none;
+}
+
+.dropdown-notifications .dropdown-menu .notifications-item img{
+    width: 50px;
+    height: 50px;
 }
 
 .dropdown-notifications .dropdown-menu .notifications-item .notifications-text{
@@ -191,6 +196,11 @@
 
 .dropdown-messages .dropdown-menu .messages-item:last-child{
     border-bottom: none;
+}
+
+.dropdown-messages .dropdown-menu .messages-item img{
+    width: 50px;
+    height: 50px;
 }
 
 .dropdown-messages .dropdown-menu .messages-item .messages-text{
@@ -225,6 +235,10 @@
     border-bottom: 1px solid #d3d3d3;
 }
 
+.dropdown-cart .dropdown-menu .cart-item img{
+    width: 73px;
+}
+
 .dropdown-cart .cart-item .cart-item-text{
     margin-left: 15px;
     font-size: 15px;
@@ -247,6 +261,10 @@
     color: #263238;
     font-size: 15px;
     font-weight: 700;
+}
+
+.profile .dropdown-menu{
+    min-width: 160px;   
 }
 
 .profile .dropdown-menu li{
