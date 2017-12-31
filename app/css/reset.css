@@ -91,6 +91,9 @@ label:hover{
 .text-lightgrey{
     color: #b0bec5;
 }
+.text-red{
+    color: #e74c3c;
+}
 .text-center{
     text-align: center;
 }
