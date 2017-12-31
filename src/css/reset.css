@@ -64,8 +64,11 @@ label:hover{
 /* == SECTIONS END == */
 
 /* == TEXT-STYLES START == */
+.text-regular{
+    font-weight: 400 !important;
+}
 .text-medium{
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 .text-bold{
     font-weight: 700;
