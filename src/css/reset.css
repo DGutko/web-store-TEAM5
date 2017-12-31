@@ -130,4 +130,45 @@ label:hover{
     font-size: 24px;
 }
 /* == TITLE END == */
+/* == FORM START == */
+.form{
+    position: relative;
+}
+.form.bg-form{
+    border: 1px solid #d7d7d7;
+}
+.form .form-row{
+    margin-top: 22px;
+}
+.form .form-row .form-item:focus{
+    background-color: #f6f3d2;
+}
+.form .form-row span sup{
+    color: #8bc34a;
+    font-size: 24px;
+}
+.form-item{
+    background-color: #f9f9f9;
+    border: 1px solid #dedede;
+    height: 40px;
+    align-self: center;
+}
+.form-item.form-item-wide{
+    height: 42px;
+}
+.form .form-row .choose label{
+    font-size: 12px;
+    padding: 7px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    margin-left: 8px;
+ }
+.form .form-row .choose span{
+    font-size: 12px;
+    margin-left: 15px;
+}
+.form .form-row .btn{
+    font-size: 15px;
+}
+/* == FORM END == */
 /* ==== DEFAULT STYLES END ==== */
