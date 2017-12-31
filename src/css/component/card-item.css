@@ -1,0 +1,118 @@
+/* ========== подключаемые классы в col-md-3 для вертикального отображения карточки ========== */ 
+
+.item-active{
+    flex-direction: column;
+}
+.item-active:hover {
+    box-shadow: 7px 7px 20px #d9dada;
+}
+.sales-active,
+.social-rating-active{
+    display: none;
+}
+.item .item-img-active img{
+    min-width: 100%;
+}
+
+/* ========== col-md-9 ========== */
+
+.item{
+    width: 100%;
+    border: 1px solid #ebeeef;
+    transition: all .2s linear;
+}
+.item:hover {
+    box-shadow: 7px 7px 20px #d9dada;
+}
+.item .item-img img{
+    max-width: 240px;
+}
+
+/* ----font style---- */
+.item .item-description .item-info .info,
+.item .item-description .item-profile .profile-title span,
+.item .item-description .item-profile .social-rating {
+    font: 500 14px/1 'Roboto',sans-serif;
+    color: rgba(139, 195, 74, .8);
+}
+.item .item-description .item-info .info span:first-child,
+.item .item-description .item-profile .profile-rating span:first-child,
+.item .item-description .item-profile .social-rating span>span,
+.item .item-description .item-info .price {
+    font-size: 16px; 
+    color: rgba(38, 50, 56, .8);
+}
+.item .item-description .item-info .price {
+    font: 700 20px/1 'Roboto',sans-serif;
+}
+.item .item-description .item-profile .profile-title span {
+    color: rgba(84, 110, 122, .8);
+}
+.item .item-description .item-profile .profile-rating span,
+.item .item-description .item-profile .social-rating span, 
+.item .item-description .sales span{
+    color: #b0bec5;
+}
+.item .item-description .item-profile .profile-rating span,
+.item .item-description .item-profile .profile-rating span:first-child,
+.item .item-description .item-profile .social-rating span,
+.item .item-description .item-profile .social-rating span span {
+    font-size: 12px;
+}
+/* ----font style end---- */
+
+.item .item-description .item-info .info,
+.item .item-description .item-profile .profile-title,
+.item .item-description .sales span {
+    margin-left: 20px;
+}
+
+.item .item-description .item-profile .profile-rating,
+.item .item-description .item-info .price,
+.item .item-description .sales span,
+.item .item-description .social-rating {
+    margin-right: 24px;
+}
+
+.item .item-description .item-profile .profile-rating>span,
+.item .item-description .item-profile .profile-title span {
+    margin-left: 10px;
+}
+
+.item .item-description .item-info {
+    border-bottom: 1px solid #e7ecf2;
+    height: 90px;
+}
+/* высота первого блока */
+
+.item .item-description .item-profile {
+    height: 65px;
+}
+/* высота второго блока */
+
+.item .item-description .item-profile .profile-rating {
+    justify-content: flex-end;
+}
+.item .item-description .item-profile .profile-rating ul>li {
+    color: #ffa726;
+    font-size: 12px;
+}
+.item .item-description .social-rating{
+    justify-content: space-between;
+    width: 30%;
+}
+.item .item-description {
+    width: 100%;
+}
+.item .item-description .item-info .price span {
+    font-size: 30px;
+}
+.profile-title {
+    flex-grow: 3;  
+}
+.profile-rating {
+    flex-grow: 3;
+}
+.social-rating {
+    flex-grow: 1;
+}

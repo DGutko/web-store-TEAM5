@@ -1,31 +1,34 @@
-/*==== BREADCRUMBS START ==== */
-.breadcrumbs {
-    margin-bottom: 40px;
-    text-transform: capitalize;
-    color: #263238;
-    padding: 25px 0;
+/* ==== ASIDE START ==== */
+.aside-section{
+    border: 1px solid #dedede;
+    padding: 23px 27px 30px;
 }
-.breadcrumbs li {
-    display: inline-block;
-    vertical-align: top;
+.aside-section .title{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dde3e8;
+    margin-bottom: 25px;  
 }
-.breadcrumbs li:not(:last-child):after {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    background-color: #8bc34a;
-    width: 5px;
-    height: 2px;
-    margin: 0 10px;
+.aside-section+.aside-section {
+    margin-top: 30px;
 }
-.breadcrumbs li a {
-    color: #b0bec5;
-    transition: all .3s;
+.aside-section .categories-content li {
+    font-weight: 400;
 }
-.breadcrumbs li:hover a {
+.aside-section .categories-content li+li {
+    margin-top: 30px;
+}
+.aside-section .categories-content li span {
+    color: #90a4ae;
+    margin-left: auto;
+}
+.aside-section .categories-content li a::before{
+    font-family: FontAwesome ;
+    content: "\f105";
     color: #8bc34a;
+    font-size: 14px;
+    margin-right: 15px;
 }
-/*==== BREADCRUMBS END ==== */
+/* ==== ASIDE END ==== */
 
 /* ==== BTN START ==== */
 .btn{
@@ -199,81 +202,6 @@
 }
 /* == SEARCH-FORM END == */
 
-/* == PERSONAL-INFO START == */
-.personal-info .form-row{
-    padding: 0 38px;
-}
-.personal-info .form-row:first-child{
-    margin-top: 33px;
-}
-.personal-info .form-row:last-child{
-    margin-top: 25px;
-    margin-bottom: 80px;
-}
-.personal-info .form-row .form-item,
-.personal-info .form-row div:last-child{
-    width: 60%;
-}
-.personal-info .form-row .form-item{
-    padding: 13px 16px;
-}
-.personal-info .form-row select{
-    padding-left: 16px;
-}
-.personal-info .form-row .btn{
-    padding: 16px 24px;
-}
-.personal-info .form-row .btn.btn-white{
-    position: absolute;
-    font-size: 15px;
-    padding: 0;
-    top: 230px;
-    right: 50px;
-}
-/* == PERSONAL-INFO END == */
-
-/* == UPLOAD-ITEM START == */
-.upload-item .form-row{
-    padding: 0 45px;
-}
-.upload-item .form-row:first-child{
-    margin-top: 43px;
-}
-.upload-item .form-row:nth-child(10){
-    padding-top: 43px;
-    border-top: 1px solid #d7d7d7;
-}
-.upload-item .form-row > *:nth-child(2){
-    width: 900px;
-}
-.upload-item .form-row:nth-child(3) span{
-    align-self: start;
-}
-.upload-item .form-row input,
-.upload-item .form-row textarea{
-    padding: 12px 18px;
-}
-.upload-item .form-row .choose input{
-    display: none;
-}
-.upload-item .form-row textarea{
-    height: 148px;
-}
-.upload-item .form-row:last-child{
-    margin-top: 42px;
-    margin-bottom: 67px;
-}
-.upload-item .form-row .btn{
-    padding: 16px 37px;
-}
-.upload-item .title{
-    padding: 0 45px;
-    font-size: 24px;
-    font-weight: 500;
-    margin-top: 70px;
-}
-/* == UPLOAD-ITEM END == */
-
 /* == DROP-MESSAGE START == */
 .drop-message28 .title{
     color: #333333;
@@ -302,95 +230,9 @@
 .drop-message.form .form-row .btn{
    padding: 19px 25px;
 }
+
 /* == DROP-MESSAGE END == */
 /* ==== FORMS END ==== */
-
-/* ==== PAGINATION START ==== */
-.pagination > li >a{
-    font-size: 16px;
-    font-weight: 500;
-    color: #263238;
-    background-color: #fff;
-    padding: 11px 17px;
-    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
-    box-shadow: 0 1px 2px rgba(205, 214, 222, .75)
-}
-.pagination > li:not(:first-child) > a{
-    margin-left: 8px;
-}
-.pagination > li.active > a,
-.pagination > li >a:hover{
-    background-color: #e74c3c;
-    color: #fdf6f5;
-}
-/* ==== PAGINATION END ==== */
-
-/*==== SLIDER START ====*/
-.product-slider {
-    margin: 0 -15px;
-    text-align: center;
-}
-.product-slider .slick-list {
-    margin-bottom: 65px;
-}
-.product-slider .slick-slide {
-    padding: 0 15px;
-    outline: none;
-}
-.product-slider .slick-dots {
-    padding: 0 15px;
-}
-.product-slider .slick-dots li {
-    display: inline-block;
-    vertical-align: middle;
-}
-.product-slider .slick-dots li:not(:first-child) {
-    margin-left: 7px;
-}
-.product-slider .slick-dots button {
-    font-size: 0;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: #e8e8e8;
-    border: none;
-    outline: none;
-    padding: 0;
-    transition: all .3s;
-}
-.product-slider .slick-dots button:hover,
-.product-slider .slick-dots .slick-active button {
-    background-color: #8bc34a;
-}
-/*==== SLIDER END ====*/
-
-/* ==== TADS START ==== */
-.tag-list {
-    margin-bottom: 60px;
-}
-.tag-list .tag-list-item {
-    display: inline-block;
-    vertical-align: top;
-    padding: 7px 22px;
-    background-color: #fff;
-    font-size: 14px;
-    color: #263238;
-    font-weight: 500;
-    transition: all .3s;
-    min-width: 70px;
-    margin-bottom: 5px;
-}
-.tag-list a + a {
-    margin-left: 2px;
-}
-.tag-list .tag-list-item.active,
-.tag-list .tag-list-item:hover {
-    color: #fff;
-    background-color: #e74c3c;
-    box-shadow: 2px 0 5px rgba(202, 215, 228, 0.75);
-}
-/* ==== TAGS END ==== */
 
 /* ===== FOOTER START ===== */
 .footer {
@@ -528,6 +370,11 @@
 .become-author03{
     background-color: #8bc34a;
     padding: 10px;
+}
+.price-range04,
+.post-grid04,
+.product-price09{
+    width: 210px;
 }
 .drop08 .btn + .btn{
     margin-left: 5px;

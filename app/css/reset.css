@@ -54,6 +54,15 @@ label:hover{
 /* ==== RESET END ==== */
 
 /* ==== DEFAULT STYLES START ==== */
+/* == SECTIONS START == */
+.default-section{
+    padding: 120px 0;
+}
+.default-section.large-section{
+    padding: 150px 0 170px 0;
+}
+/* == SECTIONS END == */
+
 /* == TEXT-STYLES START == */
 .text-medium{
     font-weight: 500;
@@ -130,6 +139,7 @@ label:hover{
     font-size: 24px;
 }
 /* == TITLE END == */
+
 /* == FORM START == */
 .form{
     position: relative;

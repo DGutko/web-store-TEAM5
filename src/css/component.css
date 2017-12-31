@@ -1,3 +1,35 @@
+/* ==== ASIDE START ==== */
+.aside-section{
+    border: 1px solid #dedede;
+    padding: 23px 27px 30px;
+}
+.aside-section .title{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dde3e8;
+    margin-bottom: 25px;  
+}
+.aside-section+.aside-section {
+    margin-top: 30px;
+}
+.aside-section .categories-content li {
+    font-weight: 400;
+}
+.aside-section .categories-content li+li {
+    margin-top: 30px;
+}
+.aside-section .categories-content li span {
+    color: #90a4ae;
+    margin-left: auto;
+}
+.aside-section .categories-content li a::before{
+    font-family: FontAwesome ;
+    content: "\f105";
+    color: #8bc34a;
+    font-size: 14px;
+    margin-right: 15px;
+}
+/* ==== ASIDE END ==== */
+
 /* ==== BTN START ==== */
 .btn{
     display: inline-block;
