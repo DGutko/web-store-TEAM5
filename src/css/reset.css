@@ -246,11 +246,12 @@ label:hover{
 }
 .form .form-row{
     margin-top: 22px;
+    color: #444;
 }
 .form .form-row .form-item:focus{
     background-color: #f6f3d2;
 }
-.form .form-row span sup{
+.form .form-row label sup{
     color: #8bc34a;
     font-size: 24px;
 }

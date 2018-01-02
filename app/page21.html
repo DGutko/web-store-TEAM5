@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Page 16</title>
+        <title>Page</title>
 
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -26,7 +26,7 @@
         <!-- Components -->
         <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/sprite.css">
-        <link rel="stylesheet" href="css/page16.css">
+        <link rel="stylesheet" href="css/page21.css">
 
     </head>
     <body>
@@ -79,7 +79,7 @@
                                     <!-- /notifications-text -->
                                     <a class="notifications-icon" href="">
                                         <i class="fa fa-bell-o" aria-hidden="true"></i>
-                                    </a>
+                                            </a>
                                 </div>
                                 <!-- /notifications-item -->
                             </div>
@@ -129,7 +129,7 @@
                                 </div>
                                 <!-- /messages-item -->
                             </div>
-                                    <!-- /dropdown-menu -->
+                            <!-- /dropdown-menu -->
                         </li>
                         <!-- /dropdown-messages -->
                         <li class="dropdown-cart dropdown-container">
@@ -173,7 +173,7 @@
                         </li>
                         <!-- /dropdown-cart -->
                     </ul>
-            
+                    
                     <div class="profile d-flex flex-row align-items-top dropdown-container">
                         <img class="profile-img" src="img/profile-img.png">
                         <div class="profile-info">
@@ -197,13 +197,12 @@
                         <!-- /dropdown-menu -->
                     </div>
                     <!-- /profile -->
-                            
                     <a class="btn btn-red btn-radius" href="">Logout</a>
                 </div>
                 <!-- /container -->
             </div>
             <!-- /header-top -->
-            
+                    
             <div class="header-bottom bg-dark text-white text-medium">
                 <div class="container d-flex flex-row align-items-center">
                     <nav><a href="#">Home</a></nav>
@@ -221,7 +220,7 @@
             <!-- /header-bottom -->
         </header>
         <!-- /header -->
-
+        
         <div class="container-fluid bg-search search-section">
             <div class="row text-center">
                 <div class="title title-small text-white text-medium">
@@ -238,95 +237,84 @@
             </div>
         </div>
         <!-- /search-section -->
-
-        <section class="personal-info-section bg-default">
-            <div class="container d-flex justify-content-between">
-                <div class="col-md-3">
-                    <div class="row-fluid">
-                        <ul class="breadcrumbs d-flex text-lightgrey">
-                            <li><a href="#">Home</a></li>
-                            <li><a class="active" href="#">Settings</a></li>
-                        </ul>
-                        <!-- /breadcrumbs -->
-                    </div>
-                    <!-- /row-fluid -->
-                    <aside class="aside">
-                        <div class="aside-section bg-white">
-                            <div class="categories-content text-medium">
-                                <ul>
-                                    <li class="d-flex justify-content-center flex-column active"><a href="">Personal Information</a></li>
-                                    <li class="d-flex justify-content-center flex-column"><a href="">Profile</a></li>
-                                    <li class="d-flex justify-content-center flex-column"><a href="">Badges</a></li>
-                                    <li class="d-flex justify-content-center flex-column"><a href="">E-mail Settings</a></li>
-                                    <li class="d-flex justify-content-center flex-column"><a href="">Social Network</a></li>
-                                </ul>
+        
+        <section class="upload-item-section bg-default">
+            <div class="container col-md-12">
+                <div class="row">
+                    <ul class="breadcrumbs d-flex text-lightgrey">
+                        <li><a  href="#">Home</a></li>
+                        <li><a class="active" href="#">About Us</a></li>
+                    </ul>
+                    <!-- /breadcrumbs -->
+                    <form class="form bg-form upload-item bg-white">
+                        <div class="title title-mid text-medium text-dark">
+                            <span>Upload Your item</span>
+                        </div>
+                        <div class="form-row d-flex justify-content-between">
+                            <label for="categories">Select Categories <sup>*</sup></label>
+                            <input class="form-item" type="text" name="categories" placeholder="Select">
+                        </div>
+                        <div class="form-row d-flex justify-content-between">
+                            <label for="product_name">Product Name <sup>*</sup></label>
+                            <input class="form-item" type="text" name="product_name" placeholder="Enter your product name here ...">
+                        </div>
+                        <div class="form-row d-flex justify-content-between">
+                            <label for="description">Product Description <sup>*</sup></label>
+                            <textarea class="form-item" type="text" name="description" placeholder="<h1> Type your text  here </h1/>"></textarea>
+                        </div>
+                        <div class="form-row d-flex justify-content-between">
+                            <label for="main_file">Upload Main File <sup>*</sup></label>
+                            <div class="choose form-item form-item-wide fo d-flex">
+                                <input type="file" name="main_file" id="main_file">
+                                <label class="align-self-center" for="main_file">Choose File</label>
+                                <span class="align-self-center">No File Choosen</span>
                             </div>
                         </div>
-                        <!-- /aside-section -->
-                    </aside>
-                </div>
-                <!-- /col-md-3 -->
-                <div class="Personal-Information col-md-9">
-                    <form class="personal-info form bg-form bg-white">
+                        <div class="form-row d-flex justify-content-between">
+                            <label for="upload_screenshots">Upload Screenshots <sup>*</sup></label>
+                            <div class="choose form-item form-item-wide d-flex">
+                                <input type="file" name="upload_screenshots" id="upload_screenshots">
+                                <label class="align-self-center" for="upload_screenshots">Choose File</label>
+                                <span class="align-self-center">No File Choosen</span>
+                            </div>
+                        </div>
+                        <div class="form-row d-flex justify-content-between">
+                            <label for="file_included">File Included <sup>*</sup></label>
+                            <input class="form-item" type="text" name="file_included" placeholder="Select File Type ">
+                        </div>
+                        <div class="form-row d-flex justify-content-between">
+                            <label for="file_dimensions">File Dimensions <sup>*</sup></label>
+                            <input class="form-item" type="text" name="file_dimensions" placeholder="Enter the item  dimentionss here ...">
+                        </div>
+                        <div class="form-row d-flex justify-content-between">
+                            <label for="item_tags">Item Tags <sup>*</sup></label>
+                            <input class="form-item" type="text" name="item_tags" placeholder="Enter Tag Here">
+                        </div>
                         <div class="title title-mid text-medium text-dark">
-                            <span>Personal Information</span>
+                            <span>Set Your Price (US$)</span>
                         </div>
                         <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="name">First Name</label>
-                            <input class="form-item" type="text" name="name">
+                            <label for="regular_licence">Regular License <sup>*</sup></label>
+                            <input class="form-item" type="text" name="regular_licence" placeholder="$00.00">
                         </div>
                         <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="surname">Last Name</label>
-                            <input class="form-item" type="text" name="surname">
-                        </div>
-                        <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="Company_name">Company Name</label>
-                            <input class="form-item" type="text" name="Company_name">
-                        </div>
-                        <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="select_country">Country</label>
-                            <select class="form-item" name="select_country" id="" data-placeholder="Select Your Country">
-                                <option value="Great Britain">Select Your Country</option>
-                                <option value="Great Britain">Great Britain</option>
-                                <option value="Ukraine">Ukraine</option>
-                                <option value="USA">USA</option>
-                            </select>
-                        </div>
-                        <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="Address_Line_1">Address Line 1</label>
-                            <input class="form-item" type="text" name="Address_Line_1">
-                        </div>
-                        <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="Address_Line_2">Address Line 2</label>
-                            <input class="form-item" type="text" name="Address_Line_2">
-                        </div>
-                        <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="City">City</label>
-                            <input class="form-item" type="text" name="City">
-                        </div>
-                        <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="State">State / Province / Region</label>
-                            <input class="form-item" type="text" name="State">
-                        </div>
-                        <div class="form-row d-flex justify-content-between">
-                            <label class="align-self-center" for="Zip">Zip / Postal Code</label>
-                            <input class="form-item" type="text" name="Zip">
+                            <label for="extended_licence">Extended License <sup>*</sup></label>
+                            <input class="form-item" type="text" name="extended_licence" placeholder="$00.00">
                         </div>
                         <div class="form-row d-flex justify-content-between">
                             <div></div>
                             <div>
-                                <button class="btn" type="submit" name="personal_info">Update</button>
+                                <button type="submit" class="btn" name="upload_item">Submit</button>
                             </div>
                         </div>
                     </form>
-                    <!-- /personal-info -->
+                    <!-- /upload-item -->
                 </div>
-                <!-- /Personal-Information16 -->
-                
             </div>
             <!-- /container -->
         </section>
-        
+        <!-- /upload-item-section -->
+
         <footer class="footer bg-dark">
             <div class="container">
                 <div class="row d-flex flex-wrap">

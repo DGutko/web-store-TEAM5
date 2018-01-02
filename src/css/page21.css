@@ -253,10 +253,7 @@
 }
 /* ==== SEARCH-SECTION END ==== */
 
-/* ==== PERSONAL-INFO-SECTION START ==== */
-.personal-info-section{
-    padding-bottom: 150px;
-}
+/* ==== UPLOAD-ITEM START ==== */
 /*== BREADCRUMBS START == */
 .breadcrumbs {
     padding-top: 49px;
@@ -285,74 +282,49 @@
     color: #8bc34a;
 }
 /*== BREADCRUMBS END == */
-
-/* == ASIDE START == */
-.aside-section .categories-content li{
-    padding-left: 22px;
-    height: 49px;
-    border: 1px solid #d7d7d7;
-    font-size: 14px;
+.upload-item-section{
+    padding-bottom: 107px;
 }
-.aside-section .categories-content li a::before{
-    font-family: FontAwesome ;
-    content: "\f105";
-    color: #b0bec5;
-    font-size: 14px;
-    margin-right: 15px;
+.upload-item .form-row{
+    padding: 0 45px;
 }
-.aside-section .categories-content li.active a::before{
-    font-family: FontAwesome ;
-    content: "\f105";
-    color: #8bc34a;
-    font-size: 14px;
-    margin-right: 15px;
+.upload-item .form-row:first-child{
+    margin-top: 43px;
 }
-.aside-section .categories-content li.active{
-    border-bottom: 2px solid #8bc34a;
-    color: #37474f;
+.upload-item .form-row:nth-child(10){
+    padding-top: 43px;
+    border-top: 1px solid #d7d7d7;
 }
-/* == ASIDE END == */
-
-/* == PERSONAL-INFO START == */
-.personal-info.form{
-    margin-top: 103px;
+.upload-item .form-row > *:nth-child(2){
+    width: 900px;
 }
-.personal-info .title{
-    padding: 22px 38px;
-    border-bottom: 1px solid #d7d7d7;
+.upload-item .form-row:nth-child(3) span{
+    align-self: start;
 }
-.personal-info .form-row{
-    padding: 0 38px;
+.upload-item .form-row input,
+.upload-item .form-row textarea{
+    padding: 12px 18px;
 }
-.personal-info .form-row:first-child{
-    margin-top: 33px;
+.upload-item .form-row .choose input{
+    display: none;
 }
-.personal-info .form-row:last-child{
-    margin-top: 25px;
-    margin-bottom: 80px;
+.upload-item .form-row textarea{
+    height: 148px;
 }
-.personal-info .form-row .form-item,
-.personal-info .form-row div:last-child{
-    width: 60%;
+.upload-item .form-row:last-child{
+    margin-top: 42px;
+    margin-bottom: 67px;
 }
-.personal-info .form-row .form-item{
-    padding: 13px 16px;
+.upload-item .form-row .btn{
+    padding: 16px 37px;
 }
-.personal-info .form-row select.form-item{
-    padding: 0 16px;
+.upload-item .title{
+    padding: 22px 33px;
 }
-.personal-info .form-row .btn{
-    padding: 16px 24px;
+.upload-item .title:nth-child(10){
+    padding-top: 70px;
 }
-.personal-info .form-row .btn.btn-white{
-    position: absolute;
-    font-size: 15px;
-    padding: 0;
-    top: 230px;
-    right: 50px;
-}
-/* == PERSONAL-INFO END == */
-/* ==== PERSONAL-INFO-SECTION END ==== */
+/* ==== UPLOAD-ITEM END ==== */
 
 /* ===== FOOTER START ===== */
 .footer {
