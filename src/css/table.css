@@ -1,0 +1,130 @@
+.table-sales-container{
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+	color: #263238;
+}
+
+.table-sales-control{
+	padding: 20px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.table-sales-control span{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table img{
+	height: 31px;
+	width: 31px;
+}
+
+.table.table-sales th{
+	text-align: left;
+}
+
+.table.table-sales tbody tr + tr td{
+	border-top: 1px solid #eee;
+}
+
+.table.table-sales tbody tr:nth-child(even) td{
+	background-color: #fbfbfb;
+}
+
+.table-sales{
+	font-size: 14px;
+	width: 90%;
+	margin: 35px auto 80px;
+}
+
+.table-sales thead th{
+	background-color: #455a64;
+	color: #fff;
+	padding: 22px 0;
+	font-weight: 400;
+	font-family: 'Roboto';
+}
+
+.table-sales thead th:first-child{
+	text-align: center;
+}
+
+.table-sales tbody{
+	font-family: 'Open Sans', sans-serif;   /* НЕ ПОДКЛЮЧЕН */
+}
+
+.table-sales tbody tr td{
+	padding: 15px 0;
+}
+
+.table-sales tbody tr td:first-child{
+	text-align: center;
+}
+
+.table-sales tbody tr td:nth-child(3){
+font-weight: 700;
+}
+
+.table-sales-total{
+	margin-left: 20px;
+	margin-bottom: 80px;
+	font-size: 30px;
+}
+
+.table-sales-total span:last-child{
+	color: #8bc34a;
+	font-weight: 500;
+}
+.table-history{
+	font-family: 'Roboto';
+}
+
+.table-history-container{
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+	color: #263238;
+}
+
+.table-history-name{
+	padding: 25px 35px;
+	border-bottom: 1px solid #dcdcdc;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.table.table-history{
+	padding: 35px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+
+
+.table.table-history tbody tr:nth-child(odd) td{
+	background-color: #fbfbfb;
+}
+
+.table-history tbody tr td{
+	padding: 15px 25px;
+}
+
+.table-history tbody tr td.paid{
+	color: #8bc34a;
+}
+
+.table.table-history tbody tr td:nth-child(1){
+	font-weight: 500;
+}
+
+.table.table-history tbody tr td:nth-child(3){
+	font-weight: 700;
+}
+
+.table.table-history tbody tr td:last-child{
+	font-weight: 700;
+}

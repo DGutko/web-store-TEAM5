@@ -1,0 +1,174 @@
+/* tabs */
+
+/* tabs product-details 09  start*/
+
+.product-feautures{
+	border: 1px solid #dcdcdc;
+}
+
+.product-feautures .tabs .tabs-controls li{
+	width: 25%;
+}
+
+.product-feautures .tabs .tabs-controls li + li{
+	border-left: 1px solid #dcdcdc;
+}
+
+.product-feautures .tabs .tabs-controls li a.tab{
+	font-size: 16px;
+	color: #70838d;
+	display: block;
+	text-align: center;
+	padding: 20px 0;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.product-feautures .tabs .tabs-controls li a.tab:hover{
+	color:  #263238;
+	border-bottom: 3px solid #8bc34a;
+	padding-bottom: 18px;
+}
+
+.product-feautures .tabs .tabs-controls li a.tab.active{
+	color:  #263238;
+	border-bottom: 3px solid #8bc34a;
+	padding-bottom: 18px;
+}
+
+.product-feautures .tab-content{
+	position: relative;
+	height: 260px;
+}
+
+.product-feautures .tab-content .tab-pane{
+	font-size: 16px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	display: none;
+}
+
+.product-feautures .tab-content .tab-pane.active{
+	display: block;
+}
+
+.product-feautures .tab-content .tab-pane ul{
+	padding: 30px 0;
+	height: 100%;
+}
+
+.product-feautures .tab-content .tab-pane ul li{
+	padding: 10px 0 10px 35px; 
+}
+
+.product-feautures .tab-content .tab-pane ul li i{
+	margin-right: 15px;
+}
+/* tabs product-details 09  end*/
+
+/* tabs profile-details 10 start*/
+
+.profile-feautures .tabs .tabs-controls{
+	border: 1px solid #dcdcdc;
+	font-size: 14px;
+	border-bottom: none;
+}
+
+.profile-feautures .tabs-controls li a.tab{
+	display: block;
+	padding: 20px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.profile-feautures .tabs .tabs-controls li a.tab:hover{
+	color:  #263238;
+	border-bottom: 2px solid #8bc34a;
+	padding-bottom: 19px;
+}
+
+.profile-feautures .tabs .tabs-controls li a.tab.active{
+	color:  #263238;
+	border-bottom: 2px solid #8bc34a;
+	padding-bottom: 19px;
+}
+
+.profile-feautures .tabs-controls li a.tab i{
+	margin-right: 15px;
+}
+
+.profile-feautures .tabs .tabs-controls li a.tab:hover i{
+	color: #8bc34a;
+}
+
+.profile-feautures .tabs .tabs-controls li a.tab.active i{
+	color: #8bc34a;
+}
+
+.profile-feautures .tab-content{
+	clear: booth;
+	position: relative;
+	height: 500px;
+}
+
+.profile-feautures .tab-content .tab-pane{
+	border: 1px solid #dcdcdc;
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	top: 0;
+	display: none;
+	padding: 40px;
+}
+
+.profile-feautures .tab-content .tab-pane.active{
+	display: block;
+}
+
+.profile-feautures .tab-content .about-me-title{
+	font-size: 20px;
+	color:  #263238;
+	display: block;
+}
+
+.profile-feautures .tab-content .about-me p{
+	font-size: 15px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.profile-feautures .tab-content .skills .skill-value{
+	font-size: 16px;
+	color:  #263238;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.profile-feautures .tab-content .skills .skill-value span:first-child{
+	font-style: italic;
+}
+
+.progress-bg{
+	background-color: #f4f4f4;
+	width: 100%;
+	height: 15px;
+	border-radius: 3px;
+}
+
+.progress-bar{
+	background-color: #b5b5b5;
+	height: 100%;
+	border-radius: 3px;
+}
+
+.progress-bar.design-pb{
+	width: 80%;
+}
+
+.progress-bar.wordpress-pb{
+	width: 90%;
+}
+
+.progress-bar.joomla-pb{
+	width: 70%;
+}
