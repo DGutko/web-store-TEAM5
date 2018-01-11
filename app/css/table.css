@@ -1,7 +1,22 @@
+/* общее для таблиц */
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table img{
+	height: 31px;
+	width: 31px;
+}
+
+
+/* table sales start */
 .table-sales-container{
 	background-color: #fff;
 	border: 1px solid #dcdcdc;
 	color: #263238;
+	margin-bottom: 140px;
 }
 
 .table-sales-control{
@@ -14,18 +29,27 @@
 	font-weight: 500;
 }
 
-table{
-	border-collapse: collapse;
-	width: 100%;
+.datepicker .datepicker-input{
+	background-color: #f9f9f9;
+	border: 1px solid #dcdcdc;
+	padding: 5px 15px;
 }
 
-table img{
-	height: 31px;
-	width: 31px;
+.datepicker .datepicker-input input{
+	background-color: #f9f9f9;
+	font-size: 12px;
+}
+
+.datepicker label{
+	margin: 0 10px;
 }
 
 .table.table-sales th{
 	text-align: left;
+}
+
+.datepicker .btn{
+	margin-left: 13px;
 }
 
 .table.table-sales tbody tr + tr td{
@@ -80,6 +104,9 @@ font-weight: 700;
 	color: #8bc34a;
 	font-weight: 500;
 }
+/* table sales end */
+
+/* table history start */
 .table-history{
 	font-family: 'Roboto';
 }
@@ -128,3 +155,5 @@ font-weight: 700;
 .table.table-history tbody tr td:last-child{
 	font-weight: 700;
 }
+
+/* table history end */
