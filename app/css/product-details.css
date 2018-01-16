@@ -227,6 +227,10 @@
 	padding: 20px;
 }
 
+.product-main .product-big-image img{
+	width: 100%;
+}
+
 .product-text{
 	margin-top: 40px;
 	margin-bottom: 45px;
@@ -240,6 +244,10 @@
 	margin-top: 30px;
 	margin-bottom: 45px;
 	font-size: 16px;
+}
+
+.product-text .social-btn nav + nav{
+	margin-left: 3px;
 }
 
 .social-nav {
@@ -309,10 +317,6 @@
 .more-product .more-product-card .more-product-card-text .price-card{
 	font-size: 18px;
 }
-
-
-
-
 
 .aside-pane{
 	padding-right: 0;
@@ -388,6 +392,15 @@
 
 .aside-section .author-icons{
 	margin-top: 25px;
+}
+
+.aside-section .author-icons li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aside-section .author-icons li span {
+    display: block;
 }
 
 .aside-section .author-sales{
