@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sales Statement</title>
+    <title>Product Details</title>
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -27,14 +27,11 @@
     <!-- Components -->
     <link rel="stylesheet" href="css/component.css">
     <link rel="stylesheet" href="css/sprite.css">
-    
-    <link rel="stylesheet" href="css/table.css">
-
+    <link rel="stylesheet" href="css/tabs.css">
     <!-- Custom styles -->
-    <link rel="stylesheet" href="css/sales-statement.css">
-    
+    <link rel="stylesheet" href="css/product-details.css">
 </head>
-<body>
+<body class="bg-default">
 
     <!-- HEADER START -->
     <div>
@@ -257,138 +254,312 @@
 
         <ul class="breadcrumbs d-flex text-dark">
             <li><a class="text-lightgrey" href="#">Home</a></li>
-            <li><a class="text-lightgrey active" href="#">Sales Statement</a></li>
+            <li><a class="text-lightgrey" href="#">WordPress</a></li>
+            <li><a class="text-lightgrey active" href="#">GT Builder Construction</a></li>
         </ul>
         <!-- /breadcrumbs -->
-
     </div>
     <!-- /BREADCRUMBS END -->
+    
+    <!-- main start -->
+    <div class="container d-flex">
+        <!-- product-main start -->
+        <div class="product-main col-lg-9">
+            <div class="product-big-image bg-white">
+                <img src="img/product-big-image.jpg" alt="">
+            </div>
+            <!-- /product-image -->
 
-    <!-- table-sales start -->
-    <div class="container">
-        <div class="table-sales-container">
-            <div class="table-sales-control d-flex justify-content-between align-items-center">
-                <div class="table-sales-name">
-                    <span>Your Sales Statement</span>    
-                </div>
-                <div class="table-sales-date">
-                    <div class="datepicker d-flex align-items-center">
-                        <div class="datepicker-input">
-                            <input type="text" id="from" name="from">
-                            <i class="fa fa-calendar text-green" aria-hidden="true"></i>
-                        </div>
-                        <label for="to">To</label>
-                        <div class="datepicker-input">
-                            <input type="text" id="to" name="to">
-                            <i class="fa fa-calendar text-green" aria-hidden="true"></i>
-                        </div>
-                        <a class="btn btn-green btn-xs" href="">Find</a>
+            <div class="product-text">
+                <span class="text-medium text-dark">GTBuilder - Construction & Building WordPress Theme</span>
+                <p>Bmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived noning essentially unchanged.</p>
+
+                <div class="d-flex justify-content-between">
+                    <div class="gtbuilder09">
+                        <a class="btn btn-red" href="">Live Preview</a>
+                        <a class="btn btn-darkblue" href="">Screenshots</a>
+                        <a class="btn btn-green" href="">Documentation</a>
+                    </div>
+                    <div class="social-btn">
+                        <a href=""><img src="img/fb-img.jpg" alt=""></a>
+                        <a href=""><img src="img/tw-img.jpg" alt=""></a>
+                        <a href=""><img src="img/in-img.jpg" alt=""></a>
+                        <a href=""><img src="img/pi-img.jpg" alt=""></a>
                     </div>
                 </div>
-
             </div>
-            <table class="table table-sales">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Avatar</th>
-                        <th>ID</th>
-                        <th>Full Name</th>
-                        <th>Purchase</th>
-                        <th>Price</th>
-                        <th>Downloads</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1.</td>
-                        <td>
-                            <img src="img/profile-img.png" alt="">
-                        </td>
-                        <td>#2050</td>
-                        <td>Jessy Sket</td>
-                        <td>15</td>
-                        <td>$200</td>
-                        <td>15</td>
-                    </tr>
-                    <tr>
-                        <td>2.</td>
-                        <td>
-                            <img src="img/profile-img.png" alt="">
-                        </td>
-                        <td>#2051</td>
-                        <td>Robert Smith</td>
-                        <td>10</td>
-                        <td>$180</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>3.</td>
-                        <td>
-                            <img src="img/profile-img.png" alt="">
-                        </td>
-                        <td>#2052</td>
-                        <td>Ziniza</td>
-                        <td>20</td>
-                        <td>$1200</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>4.</td>
-                        <td>
-                            <img src="img/profile-img.png" alt="">
-                        </td>
-                        <td>#2053</td>
-                        <td>David Rock</td>
-                        <td>10</td>
-                        <td>$300</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <td>5.</td>
-                        <td>
-                            <img src="img/profile-img.png" alt="">
-                        </td>
-                        <td>#2054</td>
-                        <td>Jessy Sket</td>
-                        <td>15</td>
-                        <td>$800</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>6.</td>
-                        <td>
-                            <img src="img/profile-img.png" alt="">
-                        </td>
-                        <td>#2055</td>
-                        <td>Neo Buler</td>
-                        <td>12</td>
-                        <td>$600</td>
-                        <td>05</td>
-                    </tr>
-                    <tr>
-                        <td>7.</td>
-                        <td>
-                            <img src="img/profile-img.png" alt="">
-                        </td>
-                        <td>#2056</td>
-                        <td>Jessy Sket</td>
-                        <td>02</td>
-                        <td>$200</td>
-                        <td>01</td>
-                    </tr>
+            <!-- /product-text -->
 
-                </tbody>
-            </table>
-            <div class="table-sales-total d-flex">
-                <span>Total Sales:&nbsp;</span>
-                <span>$ 5,030</span>
+            <!-- tabs product-details -->
+            <div class="tabs-product-details bg-white">
+                <div class="product-feautures">
+                    <div class="tabs text-medium">
+                        <ul class="tabs-controls d-flex flex-wrap">
+                            <li><a href="" class="tab active" data-tab-controls data-tabs="#item-features">Item Features</a></li>
+                            <li><a href="" class="tab" data-tab-controls data-tabs="#comments">Comments</a></li>
+                            <li><a href="" class="tab" data-tab-controls data-tabs="#reviews">Reviews</a></li>
+                            <li><a href="" class="tab" data-tab-controls data-tabs="#support">Support</a></li>
+                        </ul>
+                    </div>
+                    <!-- / tabs-controls -->
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" data-tab-pane id="item-features">
+                            <ul class="d-flex flex-column flex-wrap">
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Printing and typesetting industry</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Bhen an unknown printe</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Handard dummy text</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Desktop publishing software</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Bhen an unknown printe</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Printing and typesetting industry</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Bhen an unknown printe</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Handard dummy text</li>
+                            </ul>
+                        </div>
+                        <!-- / tab-pane -->
+                        <div class="tab-pane" data-tab-pane id="comments">
+                            <ul class="d-flex flex-column flex-wrap">
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Printing and typesetting industry</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Bhen an unknown printe</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Handard dummy text</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Bhen an unknown printe</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Handard dummy text</li>
+                            </ul>
+                        </div>
+                        <!-- / tab-pane -->
+                        <div class="tab-pane" data-tab-pane id="reviews">
+                            <ul class="d-flex flex-column flex-wrap">
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Printing and typesetting industry</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Handard dummy text</li>
+                            </ul>
+                        </div>
+                        <!-- / tab-pane -->
+                        <div class="tab-pane" data-tab-pane id="support">
+                            <ul class="d-flex flex-column flex-wrap">
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Handard dummy text</li>
+                                <li><i class="fa fa-angle-right text-green" aria-hidden="true"></i>Printing and typesetting industry</li>
+                            </ul>
+                        </div>
+                        <!-- / tab-pane -->
+                    </div>
+                    <!-- / tab-content -->
+                </div>
             </div>
+            <!-- / tabs product-details-->
+
+            <div class="more-product">
+                <div class="product-author bg-white text-medium">
+                    <span>More Product by PsdBosS</span>
+                </div>
+                
+                <div class="more-product-card-row d-flex flex-wrap justify-content-between">
+                    <div class="more-product-card-grid col-md-4">
+                        <a class="more-product-card d-flex" href="#">
+                            <img src="img/more-product-img.jpg" alt="">
+                            <div class="more-product-card-text d-flex flex-column  bg-white">
+                                <div class="title-card text-medium">
+                                <span>Grand Ballet - Dance</span>
+                                </div>
+                                <span class="description-card text-green">PSD Template</span>
+                                <span class="price-card text-bold">$12</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /more-product-card -->
+
+                    <div class="more-product-card-grid col-md-4">
+                        <a class="more-product-card d-flex" href="#">
+                            <img src="img/more-product-img.jpg" alt="">
+                            <div class="more-product-card-text d-flex flex-column  bg-white">
+                                <div class="title-card text-medium">
+                                <span>Grand Ballet - Dance</span>
+                                </div>
+                                <span class="description-card text-green">PSD Template</span>
+                                <span class="price-card text-bold">$12</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /more-product-card -->
+
+                    <div class="more-product-card-grid col-md-4">
+                        <a class="more-product-card d-flex" href="#">
+                            <img src="img/more-product-img.jpg" alt="">
+                            <div class="more-product-card-text d-flex flex-column  bg-white">
+                                <div class="title-card text-medium">
+                                <span>Grand Ballet - Dance</span>
+                                </div>
+                                <span class="description-card text-green">PSD Template</span>
+                                <span class="price-card text-bold">$12</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /more-product-card -->
+
+                    <div class="more-product-card-grid col-md-4">
+                        <a class="more-product-card d-flex" href="#">
+                            <img src="img/more-product-img.jpg" alt="">
+                            <div class="more-product-card-text d-flex flex-column  bg-white">
+                                <div class="title-card text-medium">
+                                <span>Grand Ballet - Dance</span>
+                                </div>
+                                <span class="description-card text-green">PSD Template</span>
+                                <span class="price-card text-bold">$12</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /more-product-card -->
+
+                    <div class="more-product-card-grid col-md-4">
+                        <a class="more-product-card d-flex" href="#">
+                            <img src="img/more-product-img.jpg" alt="">
+                            <div class="more-product-card-text d-flex flex-column  bg-white">
+                                <div class="title-card text-medium">
+                                <span>Grand Ballet - Dance</span>
+                                </div>
+                                <span class="description-card text-green">PSD Template</span>
+                                <span class="price-card text-bold">$12</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /more-product-card -->
+
+                    <div class="more-product-card-grid col-md-4">
+                        <a class="more-product-card d-flex" href="#">
+                            <img src="img/more-product-img.jpg" alt="">
+                            <div class="more-product-card-text d-flex flex-column  bg-white">
+                                <div class="title-card text-medium">
+                                <span>Grand Ballet - Dance</span>
+                                </div>
+                                <span class="description-card text-green">PSD Template</span>
+                                <span class="price-card text-bold">$12</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /more-product-card -->
+                </div>
+                <!-- /more-product-card-row -->     
+            </div>
+            <!-- /more-product -->
         </div>
-    </div>
-    <!-- / container -->
-    <!-- table-sales end -->
+        <!-- product-main end -->
     
+        <!-- aside-pane start -->
+        <div class="aside-pane col-lg-3">
+            <div class="aside-section bg-white">
+                <div class="aside-section-title text-bold text-dark">
+                    <span>Product Price</span>    
+                </div>
+                <div class="aside-section-content">
+                    <div class="aside-section-price text-medium text-red d-flex justify-content-between align-items-center">
+                        <span>$59.00</span>
+                        <div class="jq-selectbox jqselect" style="z-index: 9;">
+                            <div class="jq-selectbox jqselect" style="z-index: 10;">
+                                <select>
+                                    <option>Regular</option>
+                                    <option>Light</option>
+                                    <option>Premium</option>
+                                </select>
+                                <div class="jq-selectbox__dropdown" style="height: auto; bottom: auto; top: 32px; display: none;">
+                                    <ul style="max-height: 226.666px;">
+                                        <li class="sel selected" style="">-- Выберите --</li>
+                                        <li style="">Пункт 1</li>
+                                        <li style="">Пункт 2</li>
+                                        <li class="disabled" style="">Пункт 3</li>
+                                        <li style="">Пункт 4</li>
+                                        <li style="">Пункт 5</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /selectbox -->
+                    </div>
+                    <!-- / aside-pane-card-price -->
+                    <div class="product-price09 aside-buttons">
+                        <a class="btn btn-green btn-full btn-shadow text-bold" href="">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <span>Add To Cart</span>
+                        </a>
+                        <a class="btn btn-blue btn-full btn-shadow" href="">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <span>Add To Favourites</span>
+                        </a>
+                        <a class="btn btn-darkblue btn-full btn-shadow text-bold" href="">Buy Now</a>
+                    </div>
+                    <!-- / aside-buttons -->
+                </div>
+                <!-- /aside-section-content -->
+            </div>
+            <!-- / aside-section -->
+
+            <div class="aside-section bg-white">
+                <div class="aside-section-title text-bold text-dark">
+                    <span>Product Author</span>    
+                </div>
+                <div class="aside-section-content">
+                    <div class="author-profile d-flex">
+                        <img src="img/aside-pane-author.jpg" alt="">
+                        <div class="author-text d-flex flex-column justify-content-between">
+                            <span class="text-dark">PsdBoss</span>
+                            <a class = "btn btn-white" href="">View Profile</a>
+                        </div>
+                    </div>
+                    <div class="author-icons d-flex justify-content-between">
+                        <img src="img/author-icon-01.png" alt="">
+                        <img src="img/author-icon-02.png" alt="">
+                        <img src="img/author-icon-03.png" alt="">
+                        <img src="img/author-icon-04.png" alt="">
+                        <img src="img/author-icon-05.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- / aside-section -->
+
+            <div class="aside-section bg-white">
+                <div class="author-sales">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span class="text-bold text-dark">05</span>
+                    <span>Sales</span>
+                </div>
+            </div>
+            <!-- / aside-section -->
+            <div class="aside-section bg-white">
+                <div class="aside-section-title text-bold text-dark">
+                    <span>Product Information</span>    
+                </div>
+                <div class="aside-section-content">
+                    <div class="info-item d-flex flex-wrap">
+                        <span class="text-medium text-dark">Released On:&nbsp</span>
+                        <span>1 January, 2016</span>
+                    </div>
+                    <div class="info-item d-flex flex-wrap">
+                        <span class="text-medium text-dark">Last Update:&nbsp</span>
+                        <span>20 April, 2016</span>
+                    </div>
+                    <div class="info-item d-flex flex-wrap">
+                        <span class="text-medium text-dark">Download:&nbsp</span>
+                        <span>613</span>
+                    </div>
+                    <div class="info-item d-flex flex-wrap">
+                        <span class="text-medium text-dark">Version:&nbsp</span>
+                        <span>1.1</span>
+                    </div>
+                    <div class="info-item d-flex flex-wrap">
+                        <span class="text-medium text-dark">Compatibility:&nbsp</span>
+                        <span>Wordpress 4+</span>
+                    </div>
+                    <div class="info-item d-flex flex-column">
+                        <span class="text-medium text-dark">Compatible Browsers:&nbsp</span>
+                        <span>E9, IE10, IE11, Firefox, Safari, Opera, Chrome</span>
+                    </div>
+                </div>
+            </div>
+            <!-- / aside-section -->
+        </div>
+        <!-- aside-pane end -->
+
+    </div>
+    <!-- main end -->
+
     <!--FOOTER START-->
     <div>
 
@@ -460,15 +631,19 @@
                 </div>
             </div>
         </footer>
-
     </div>
     <!--/FOOTER END-->
 
 
     <!-- jQuery -->
+    
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script> 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-    <script src="js/datepicker.js"></script>
+    <script type="text/javascript" src="js/tabs.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script type="text/javascript" src="js/select.js"></script>
 </body>
 </html>

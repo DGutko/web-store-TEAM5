@@ -247,11 +247,10 @@
 
 /*==== BREADCRUMBS START ==== */
 .breadcrumbs {
-    margin-top: 50px; /* добавил */
     margin-bottom: 40px;
     text-transform: capitalize;
     color: #263238;
-    /* padding: 25px 0; */
+    padding: 25px 0;
 }
 .breadcrumbs li {
     display: inline-block;
