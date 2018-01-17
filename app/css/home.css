@@ -1,0 +1,126 @@
+.wrapper {
+    overflow: hidden;
+}
+
+.title-indent {
+    margin-bottom: 50px;
+}
+
+.search-section.lg-section {
+    padding: 145px 0 170px;
+}
+
+.products-list {
+    margin-bottom: 70px;
+}
+
+.product-section .product-row {
+    margin-bottom: 30px;
+}
+
+.product-section .lets-check03 {
+    padding: 0;
+}
+
+.card.sale {
+    position: relative;
+    overflow: hidden;
+}
+
+.card.sale:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    border-top: 65px solid #8bc34a;
+    border-left: none;
+    border-right: 65px solid transparent;
+    border-bottom: none;
+}
+
+.card.sale:after {
+    content: "\f0e7";
+    font-family: 'FontAwesome';
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+}
+
+.advantages-list {
+    margin: 0 -40px;
+}
+
+.advantages-list li {
+    padding: 0 40px;
+}
+
+.advantages-list li .icon-box {
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    overflow: hidden;
+    width: 115px;
+    height: 115px;
+}
+
+.advantages-list li .icon-box img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.advantages-list li .icon-box:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.advantages-list .title {
+    margin-bottom: 20px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.advantages-list .title:hover {
+    color: #8bc34a;
+}
+
+.info-banner {
+    padding: 115px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-banner p {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-right: 40px;
+}
+
+.info-banner .inner-box {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 70px 60px;
+}
+
+.info-banner .btn {
+    white-space: nowrap;
+}
+
+.tutorial-box .tutorial-title {
+    display: block;
+    padding: 35px 70px;
+    background-color: #f8f8f8;
+    white-space: nowrap;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.tutorial-box .tutorial-title:hover {
+    color: #8bc34a;
+}

@@ -1,190 +1,245 @@
 /* ==== RESET START ==== */
-*{
+* {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     color: #707070;
     font: 400 15px/1 'Roboto', sans-serif;
+    background-color: #f4f6f5;
 }
-p{
+
+p {
     line-height: 1.7em;
 }
-h1, h2, h3, h4, h5, h6, p{
+
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     font-weight: normal;
 }
-a{
+
+a {
     color: inherit;
     text-decoration: none;
 }
-a:hover, a:active{
+
+a:hover, a:active {
     text-decoration: none;
 }
-ul, ol{
+
+ul, ol {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-img{
+
+img {
     max-width: 100%;
+    vertical-align: top;
 }
-textarea{
+
+textarea {
     resize: vertical;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-button, input, textarea, select, label{
+
+button, input, textarea, select, label {
     border: none;
     font: inherit;
     font-size: 15px;
 }
+
 input:focus,
 button:focus,
 textarea:focus,
-select:focus{
+select:focus {
     outline: none;
-} 
+}
+
 button:hover,
-label:hover{
+label:hover {
     cursor: pointer;
 }
+
 /* ==== RESET END ==== */
 
 /* ==== DEFAULT STYLES START ==== */
 /* == SECTIONS START == */
-.default-section{
+.default-section {
     padding: 120px 0;
 }
-.default-section.large-section{
+
+.default-section.large-section {
     padding: 150px 0 170px 0;
 }
+
 /* == SECTIONS END == */
 
 /* == TEXT-STYLES START == */
-.text-regular{
+.text-regular {
     font-weight: 400 !important;
 }
-.text-medium{
+
+.text-medium {
     font-weight: 500 !important;
 }
-.text-bold{
+
+.text-bold {
     font-weight: 700;
 }
-.text-uppercase{
+
+.text-uppercase {
     text-transform: uppercase;
 }
-.text-normal{
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-normal {
     text-transform: none;
 }
-.text-white{
+
+.text-white {
     color: #fff;
 }
-.text-dark{
+
+.text-dark {
     color: #263238;
 }
-.text-green{
+
+.text-green {
     color: #8bc34a;
 }
-.text-lightgrey{
+
+.text-lightgrey {
     color: #b0bec5;
 }
-.text-red{
+
+.text-red {
     color: #e74c3c;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.text-adress{
-    font: 400 14px/1,4 'Lato', 'sans serif';
+
+.text-adress {
+    font: 400 14px/1, 4 'Lato', 'sans serif';
     color: #fff;
 }
+
 /* == TEXT STYLES END == */
 
 /* == BACKGROUND START == */
 .bg-default {
     background-color: #f4f6f5;
 }
-.bg-white{
+
+.bg-white {
     background-color: #ffffff;
 }
-.bg-search{
+
+.bg-search {
     background: url("../img/bg-search.jpg") no-repeat center/cover;
     height: 100%;
 }
+
 .bg-green {
     background-color: #8bc34a;
 }
+
 .bg-dark {
     background-color: #263238;
 }
+
 /* == BACKGROUND END == */
 
 /* == TITLE START == */
-.title{
+.title {
+    display: block;
     font-size: 36px;
     font-weight: 700;
 }
-.title.title-footer{
-    font: 700 22px/1 'Raleway','sans serif';
+
+.title.title-footer {
+    font: 700 22px/1 'Raleway', 'sans serif';
     color: #fff;
     line-height: 1.09;
 }
-.title.title-big{
+
+.title.title-big {
     font-size: 48px;
 }
-.title.title-small{
+
+.title.title-small {
     font-size: 20px;
 }
-.title.title-xs{
+
+.title.title-xs {
     font-size: 16px;
 }
-.title.title-mid{
+
+.title.title-mid {
     font-size: 24px;
 }
+
 /* == TITLE END == */
 
 /* == FORM START == */
-.form{
+.form {
     position: relative;
 }
-.form.bg-form{
+
+.form.bg-form {
     border: 1px solid #d7d7d7;
 }
-.form .form-row{
+
+.form .form-row {
     margin-top: 22px;
 }
-.form .form-row .form-item:focus{
+
+.form .form-row .form-item:focus {
     background-color: #f6f3d2;
 }
-.form .form-row span sup{
+
+.form .form-row span sup {
     color: #8bc34a;
     font-size: 24px;
 }
-.form-item{
+
+.form-item {
     background-color: #f9f9f9;
     border: 1px solid #dedede;
     height: 40px;
     align-self: center;
 }
-.form-item.form-item-wide{
+
+.form-item.form-item-wide {
     height: 42px;
 }
-.form .form-row .choose label{
+
+.form .form-row .choose label {
     font-size: 12px;
     padding: 7px;
     background-color: #fff;
     border: 1px solid #dedede;
     margin-left: 8px;
- }
-.form .form-row .choose span{
+}
+
+.form .form-row .choose span {
     font-size: 12px;
     margin-left: 15px;
 }
-.form .form-row .btn{
+
+.form .form-row .btn {
     font-size: 15px;
 }
+
 /* == FORM END == */
 /* ==== DEFAULT STYLES END ==== */
