@@ -1,0 +1,89 @@
+/* костыль старт */
+
+.breadcrumbs {
+    margin-top: 50px; /* - добавил */
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    color: #263238;
+    /* padding: 25px 0; */
+    padding: 0; /* - добавил */
+}
+
+.breadcrumbs li a.active{
+    color: #263238;
+}
+
+/* костыль энд */
+
+.contact-container{
+	border: 1px solid #dcdcdc;
+	margin-bottom: 138px;
+}
+
+.contact-container .contact-name{
+	border-bottom: 1px solid #dcdcdc;
+	padding: 25px 40px;
+}
+
+.contact-container .contact-main{
+	padding: 30px 40px 15px;
+}
+
+.contact-container .contact-main .map{
+	margin-bottom: 60px;
+}
+
+.contact-container .contact-main .map iframe{
+	height: 415px;
+	width: 100%;
+}
+
+.contact-container .contact-form{
+	margin: 0 -15px;
+}
+
+.contact-data-item{
+	max-width: 270px;
+}
+
+.contact-data-item .item-icon::before{
+	display: block;
+	color: #8bc34a;
+	font-size: 20px;
+	width: 22px;
+}
+
+.contact-data-item .item-icon{
+	margin-right: 20px;
+}
+
+.contact-data-item .item-title{
+	font-size: 20px;
+}
+
+.contact-data-item .item-text{
+	line-height: 1.6;
+	margin-bottom: 35px;
+}
+
+.contact-data-item .item-title:after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 3px;
+    background-color: #8bc34a;
+    margin-top: 18px;
+    margin-bottom: 23px;
+}
+
+.drop-message.form .form-row .form-item{
+	margin: 0;
+}
+
+.drop-message.form .form-row input.form-item{
+	width: 48%;
+}
+
+.drop-message.form .form-row button{
+	text-transform: uppercase;
+}
