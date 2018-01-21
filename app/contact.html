@@ -182,7 +182,7 @@
                     </ul>
     
                     <div class="profile d-flex flex-row align-items-top dropdown-container">
-                        <img class="profile-img" src="img/profile-img.png">
+                        <img class="profile-img" src="img/profile-img.png" alt="profile-img">
                         <div class="profile-info">
                             <span class="profile-name text-medium">Mike Hussy</span>
                             <span class="profile-balance text-green text-bold">$171.00</span>
@@ -241,7 +241,7 @@
             <form class="form">
                 <div class="search-form">
                     <input class="form-item" type="text" name="key_words" placeholder="Search Your Keywords . . . " >
-                    <button type="search" class="btn btn-white">
+                    <button type="submit" class="btn btn-white">
                         <i class="fa fa-search" aria-hidden="true"></i>    
                     </button>
                 </div>
@@ -270,7 +270,7 @@
             </div>
             <div class="contact-main">
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29023.001647559846!2d36.24035339168638!3d49.98707548657378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1516143969387" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29023.001647559846!2d36.24035339168638!3d49.98707548657378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1516143969387" allowfullscreen></iframe>
                 </div>
 
                 <div class="contact-form d-flex justify-content-between">
@@ -303,9 +303,13 @@
                         <span class="title title-mid text-medium">Drop Us A Message</span>
                         <form class="form drop-message">
                             <div class="form-row d-flex flex-wrap justify-content-between">
-                                <input class="form-item form-item-wide" type="text" name="name" placeholder="Name*">
-                                <input class="form-item form-item-wide" type="text" name="name" placeholder="E-mail*">
-                                <textarea class="form-item" name="message" id="" placeholder="Message*"></textarea>
+                                <div class="form-item-div">
+                                    <input class="form-item form-item-wide" type="text" name="name" placeholder="Name*">
+                                </div>
+                                <div class="form-item-div">
+                                    <input class="form-item form-item-wide" type="text" name="name" placeholder="E-mail*">
+                                </div>
+                                <textarea class="form-item" name="message" id="drop-us-form-textarrea" placeholder="Message*"></textarea>
                                 <button type="submit" class="btn btn-green text-uppercase" name="user_message">Send Message</button>
                             </div>
                         </form>

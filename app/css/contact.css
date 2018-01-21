@@ -36,6 +36,7 @@
 .contact-container .contact-main .map iframe{
 	height: 415px;
 	width: 100%;
+    border: 0;
 }
 
 .contact-container .contact-form{
@@ -63,7 +64,10 @@
 
 .contact-data-item .item-text{
 	line-height: 1.6;
-	margin-bottom: 35px;
+}
+
+.contact-data-item + .contact-data-item{
+    margin-top: 35px;
 }
 
 .contact-data-item .item-title:after {
@@ -80,8 +84,20 @@
 	margin: 0;
 }
 
-.drop-message.form .form-row input.form-item{
-	width: 48%;
+.drop-message.form .form-row .form-item-div{
+    width: 50%;
+}
+
+.drop-message.form .form-row .form-item-div:first-child{
+    padding-right: 13px;
+}
+
+.drop-message.form .form-row .form-item-div + .form-item-div{
+    padding-left: 13px;
+}
+
+.drop-message.form .form-row .form-item-div .form-item{
+    width: 100%;
 }
 
 .drop-message.form .form-row button{
